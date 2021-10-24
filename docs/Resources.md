@@ -43,10 +43,10 @@
 ## プレイマット
 ココフォリア、ユドナリウムの両方に、練習用と本番用を作成しました。
 
-- [ココフォリア練習用](resources/星陰練習用_ココフォリア_20211024.zip)
-- [ココフォリア本番用](resources/星陰本番用_ココフォリア_20211024.zip)
-- [ユドナリウム練習用](resources/星陰練習用_ユドナリウム_20211024.zip)
-- [ユドナリウム本番用](resources/星陰本番用_ユドナリウム_20211024.zip)
+- [ココフォリア練習用](https://drive.google.com/file/d/1S7s6l9p6TWkl_tP0ugp6ZICPuw4VmAi1/view?usp=sharing)
+- [ココフォリア本番用](https://drive.google.com/file/d/1CXjoZzjglGF_JMq50Wf2uJI9PdbHhRhU/view?usp=sharing)
+- [ユドナリウム練習用](https://drive.google.com/file/d/1bcFbPqDETO440ykwcoIWLw6G6X4HlQVe/view?usp=sharing)
+- [ユドナリウム本番用](https://drive.google.com/file/d/1u3jljBxhDQ5eOHWzyM-Bfv4AR7zknQPU/view?usp=sharing)
 
 ## 外部素材
 BGMなど、作成者が使用した素材へのリンクです。各素材の利用規約は各ホームページでご確認ください。

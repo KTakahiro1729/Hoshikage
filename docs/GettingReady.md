@@ -29,10 +29,10 @@
 いずれのzipファイルにもBGMは同梱されていません。作者推奨のBGMへのダウンロードリンクは[素材置き場](Resources.md)にありますので参照してください。
 
 #### [ココフォリア](https://ccfolia.com/)
-[ココフォリア](https://ccfolia.com/)が一番きれいに見えると思います。[zipファイル](resources/星陰本番用_ココフォリア_20211024.zip)をDLの上、ココフォリアにドラッグ&ドロップしてください。
+[ココフォリア](https://ccfolia.com/)が一番きれいに見えると思います。[zipファイル](https://drive.google.com/file/d/1CXjoZzjglGF_JMq50Wf2uJI9PdbHhRhU/view?usp=sharing)をDLの上、ココフォリアにドラッグ&ドロップしてください。
 
 #### [平面化ユドナリウム](https://udonarium2d.netlify.app/)
-調査ポイントのマーカーが2Dであるため、[ユドナリウム](https://udonarium.app/)よりも[平面化ユドナリウム](https://udonarium2d.netlify.app/)を推奨します。いずれも[zipファイル](resources/星陰本番用_ユドナリウム_20211024.zip)を読み込んでください。
+調査ポイントのマーカーが2Dであるため、[ユドナリウム](https://udonarium.app/)よりも[平面化ユドナリウム](https://udonarium2d.netlify.app/)を推奨します。いずれも[zipファイル](https://drive.google.com/file/d/1u3jljBxhDQ5eOHWzyM-Bfv4AR7zknQPU/view?usp=sharing)を読み込んでください。
 
 ## 理解度の確認
 ルールやハンドアウトの読み込みが不十分なプレイヤーがいると、ゲームの面白さが損なわれてしまいます。ぜひご活用ください。
