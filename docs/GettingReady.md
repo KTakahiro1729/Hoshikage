@@ -22,7 +22,7 @@
 
 ## 環境の作成
 ### 通話環境
-[Discord®](discord.com)を使用される場合、[サーバーテンプレート](https://discord.new/S5RUnQkVRutd)を作成していますのでご活用ください。
+[Discord®](discord.com)を使用される場合、[サーバーテンプレート](https://discord.new/9VmjeucEWSxu)を作成していますのでご活用ください。
 
 ### カード調査
 ココフォリア、ユドナリウムの両方に、練習用と本番用を作成しました。ご活用ください。
