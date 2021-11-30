@@ -45,12 +45,9 @@
 ### [零ゴシック](https://booth.pm/ja/items/2658538)
 源ノ角ゴシックがパキパキに割れたフォントです。ポストアポカリプスっぽさがあります。シンフォニーのハンドアウトに使われています。
 
-[ホームページ
 
 ### [源界明朝](https://flopdesign.com/blog/font/5146/)
 源ノ明朝がぐずぐずに壊されたフォントです。ミリタリっぽさがあります。セレナーデのハンドアウトに使われています。
-
-[ホームページ
 
 ### [Adine-Kirnberg](https://fontmeme.com/jfont/adine-kirnberg-font/)
 Adine-Kirnbergは筆記体風の英字フォントです。地図やカードの英字表記に使用しています。
