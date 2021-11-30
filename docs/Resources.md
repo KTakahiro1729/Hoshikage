@@ -7,46 +7,46 @@
 **txt**はコピペ用テキストファイルです。
 
 ### 全員へ配布
-- [共通ハンドアウト](resources/HandOuts/CommonHandOut.pdf) [txt](resources/HandOuts/txt/CommonHandOut.txt)
+- [共通ハンドアウト](resources/HandOuts/CommonHandOut.pdf) [txt](resources/HandOuts/CommonHandOut.txt)
 - [印刷用白地図](resources/Handouts/MapForPrint.pdf)
-- [オープニング台本](resources/Handouts/Opening.pdf) [txt](resources/HandOuts/txt/Opening.txt)
+- [オープニング台本](resources/Handouts/Opening.pdf) [txt](resources/Handouts/Opening.txt)
 
 ###  キャラクター用ハンドアウト
-- [シンフォニー](resources/HandOuts/1_PCHandOut/PC1_Symphony.pdf) [txt](resources/HandOuts/txt/PC1_Symphony.txt)
-- [セレナーデ](resources/HandOuts/1_PCHandOut/PC2_Serenade.pdf) [txt](resources/HandOuts/txt/PC2_Serenade.txt)
-- [ララバイ](resources/HandOuts/1_PCHandOut/PC3_Lullaby.pdf) [txt](resources/HandOuts/txt/PC3_Lullaby.txt)
-- [キャロル](resources/HandOuts/1_PCHandOut/PC4_Carol.pdf) [txt](resources/HandOuts/txt/PC4_Carol.txt)
-- [カプリッチオ](resources/HandOuts/1_PCHandOut/PC5_Capriccio.pdf) [txt](resources/HandOuts/txt/PC5_Capriccio.txt)、[ロンドの研究ノート](resources/HandOuts/1_PCHandOut/Rondo_research_note.pdf) [txt](resources/HandOuts/txt/Rondo_research_note.txt)（一緒に渡してください）
+- [シンフォニー](resources/HandOuts/1_PCHandOut/PC1_Symphony.pdf) [txt](resources/HandOuts/1_PCHandOut/PC1_Symphony.txt)
+- [セレナーデ](resources/HandOuts/1_PCHandOut/PC2_Serenade.pdf) [txt](resources/HandOuts/1_PCHandOut/PC2_Serenade.txt)
+- [ララバイ](resources/HandOuts/1_PCHandOut/PC3_Lullaby.pdf) [txt](resources/HandOuts/1_PCHandOut/PC3_Lullaby.txt)
+- [キャロル](resources/HandOuts/1_PCHandOut/PC4_Carol.pdf) [txt](resources/HandOuts/1_PCHandOut/PC4_Carol.txt)
+- [カプリッチオ](resources/HandOuts/1_PCHandOut/PC5_Capriccio.pdf) [txt](resources/HandOuts/1_PCHandOut/PC5_Capriccio.txt)、[ロンドの研究ノート](resources/HandOuts/1_PCHandOut/Rondo_research_note.pdf) [txt](resources/HandOuts/1_PCHandOut/Rondo_research_note.txt)（一緒に渡してください）
 
 ### 追加ハンドアウト（アリアのスマートフォン）
 全プレイヤーに共通メモを、シンフォニー以外には個別メモも渡してください。
 
-- [共通メモ](resources/HandOuts/2_Aria_Memo/Aria_Memo_Common.pdf) [txt](resources/HandOuts/txt/Aria_Memo_Common.txt)
-- [セレナーデ](resources/HandOuts/2_Aria_Memo/Aria_Memo_PC2_Serenade.pdf) [txt](resources/HandOuts/txt/Aria_Memo_PC2_Serenade.txt)
-- [ララバイ](resources/HandOuts/2_Aria_Memo/Aria_Memo_PC3_Lullaby.pdf) [txt](resources/HandOuts/txt/Aria_Memo_PC3_Lullaby.txt)
-- [キャロル](resources/HandOuts/2_Aria_Memo/Aria_Memo_PC4_Carol.pdf) [txt](resources/HandOuts/txt/Aria_Memo_PC4_Carol.txt)
-- [カプリッチオ](resources/HandOuts/2_Aria_Memo/Aria_Memo_PC5_Capriccio.pdf) [txt](resources/HandOuts/txt/Aria_Memo_PC5_Capriccio.txt)
+- [共通メモ](resources/HandOuts/2_Aria_Memo/Aria_Memo_Common.pdf) [txt](resources/HandOuts/2_Aria_Memo/Aria_Memo_Common.txt)
+- [セレナーデ](resources/HandOuts/2_Aria_Memo/Aria_Memo_PC2_Serenade.pdf) [txt](resources/HandOuts/2_Aria_Memo/Aria_Memo_PC2_Serenade.txt)
+- [ララバイ](resources/HandOuts/2_Aria_Memo/Aria_Memo_PC3_Lullaby.pdf) [txt](resources/HandOuts/2_Aria_Memo/Aria_Memo_PC3_Lullaby.txt)
+- [キャロル](resources/HandOuts/2_Aria_Memo/Aria_Memo_PC4_Carol.pdf) [txt](resources/HandOuts/2_Aria_Memo/Aria_Memo_PC4_Carol.txt)
+- [カプリッチオ](resources/HandOuts/2_Aria_Memo/Aria_Memo_PC5_Capriccio.pdf) [txt](resources/HandOuts/2_Aria_Memo/Aria_Memo_PC5_Capriccio.txt)
 
 ### 追加ハンドアウト（黄色の印）
-- [シンフォニー](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC1_Symphony.pdf) [txt](resources/HandOuts/txt/Yellow_Sign_PC1_Symphony.txt)
-- [セレナーデ](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC2_Serenade.pdf) [txt](resources/HandOuts/txt/Yellow_Sign_PC2_Serenade.txt)
-- [ララバイ](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC3_Lullaby.pdf) [txt](resources/HandOuts/txt/Yellow_Sign_PC3_Lullaby.txt)
-- [カプリッチオ](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC5_Capriccio.pdf) [txt](resources/HandOuts/txt/Yellow_Sign_PC5_Capriccio.txt)
+- [シンフォニー](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC1_Symphony.pdf) [txt](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC1_Symphony.txt)
+- [セレナーデ](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC2_Serenade.pdf) [txt](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC2_Serenade.txt)
+- [ララバイ](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC3_Lullaby.pdf) [txt](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC3_Lullaby.txt)
+- [カプリッチオ](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC5_Capriccio.pdf) [txt](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC5_Capriccio.txt)
 
 ### 追加ハンドアウト（その他）
-- [シンフォニー（若い図書館員）](resources/HandOuts/4_Other_Additional/Additional_Info_PC1_Symphony.pdf) [txt](resources/HandOuts/txt/Additional_Info_PC1_Symphony.txt)
-- [セレナーデ（トーラス）](resources/HandOuts/4_Other_Additional/Additional_Info_PC2_Serenade.pdf) [txt](resources/HandOuts/txt/Additional_Info_PC2_Serenade.txt)
-- [フーガのスマートフォン](resources/HandOuts/4_Other_Additional/Fuga_Smartphone.pdf) [txt](resources/HandOuts/txt/Fuga_Smartphone.txt)
-- [クトゥルフの星の落とし子](resources/HandOuts/4_Other_Additional/StarSpawnOfCthulhu.pdf) [txt](resources/HandOuts/txt/StarSpawnOfCthulhu.txt)
-- [石板](resources/HandOuts/4_Other_Additional/TheStele.pdf) [txt](resources/HandOuts/txt/TheStele.txt)
+- [シンフォニー（若い図書館員）](resources/HandOuts/4_Other_Additional/Additional_Info_PC1_Symphony.pdf) [txt](resources/HandOuts/4_Other_Additional/Additional_Info_PC1_Symphony.txt)
+- [セレナーデ（トーラス）](resources/HandOuts/4_Other_Additional/Additional_Info_PC2_Serenade.pdf) [txt](resources/HandOuts/4_Other_Additional/Additional_Info_PC2_Serenade.txt)
+- [フーガのスマートフォン](resources/HandOuts/4_Other_Additional/Fuga_Smartphone.pdf) [txt](resources/HandOuts/4_Other_Additional/Fuga_Smartphone.txt)
+- [クトゥルフの星の落とし子](resources/HandOuts/4_Other_Additional/StarSpawnOfCthulhu.pdf) [txt](resources/HandOuts/4_Other_Additional/StarSpawnOfCthulhu.txt)
+- [石板](resources/HandOuts/4_Other_Additional/TheStele.pdf) [txt](resources/HandOuts/4_Other_Additional/TheStele.txt)
 
 ## プレイマット
 ココフォリア、ユドナリウムの両方に、練習用と本番用を作成しました。
 
-- [ココフォリア練習用](https://drive.google.com/file/d/1S7s6l9p6TWkl_tP0ugp6ZICPuw4VmAi1/view?usp=sharing)
+- [ココフォリア練習用](https://drive.google.com/file/d/1_0tN4X40vIDgq0La5CvelRg_KN_HBTqi/view?usp=sharing)
 - [ココフォリア本番用](https://drive.google.com/file/d/1CXjoZzjglGF_JMq50Wf2uJI9PdbHhRhU/view?usp=sharing)
 - [ユドナリウム練習用](https://drive.google.com/file/d/1bcFbPqDETO440ykwcoIWLw6G6X4HlQVe/view?usp=sharing)
-- [ユドナリウム本番用](https://drive.google.com/file/d/1u3jljBxhDQ5eOHWzyM-Bfv4AR7zknQPU/view?usp=sharing)
+- [ユドナリウム本番用](https://drive.google.com/file/d/1PxuEJeUerU0WIsvnjtXPzZhGbu9ELX_E/view?usp=sharing)
 
 ## 外部素材
 BGMなど、作成者が使用した素材へのリンクです。各素材の利用規約は各ホームページでご確認ください。
