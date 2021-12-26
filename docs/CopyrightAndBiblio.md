@@ -68,7 +68,7 @@ Pesky Phoeniciansは英字フォントですが、象形文字のような書き
 
 MITライセンスで開発されているため、商用利用可能です。
 
-### [Blender](blender.org)
+### [Blender](https://blender.org)
 泣く子も黙る、Blender。3DCGツールですが、ロゴやカードのデザインに使っています。
 
 ## 参考文献

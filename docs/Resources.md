@@ -8,8 +8,8 @@
 
 ### 全員へ配布
 - [共通ハンドアウト](resources/HandOuts/CommonHandOut.pdf) [txt](resources/HandOuts/CommonHandOut.txt)
-- [印刷用白地図](resources/Handouts/MapForPrint.pdf)
-- [オープニング台本](resources/Handouts/Opening.pdf) [txt](resources/Handouts/Opening.txt)
+- [印刷用白地図](resources/HandOuts/MapForPrint.pdf)
+- [オープニング台本](resources/HandOuts/Opening.pdf) [txt](resources/HandOuts/Opening.txt)
 
 ###  キャラクター用ハンドアウト
 - [シンフォニー](resources/HandOuts/1_PCHandOut/PC1_Symphony.pdf) [txt](resources/HandOuts/1_PCHandOut/PC1_Symphony.txt)
