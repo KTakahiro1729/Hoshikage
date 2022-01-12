@@ -213,7 +213,7 @@ function copyhidden(name){
 
 <!-- いつか配列を使う -->
 
-<table id="pts_table">
+<table id="pts_table" class="padless_table">
   <thead>
   <tr>
     <th>投票者</th>
@@ -238,7 +238,7 @@ function copyhidden(name){
 
 <p></p>
 
-<table id="mur_table">
+<table id="mur_table" class="padless_table">
   <thead>
   <tr>
     <th>投票者</th>
@@ -325,7 +325,7 @@ function copyhidden(name){
 <p></p>
 
 
-<table id="ldr_table">
+<table id="ldr_table" class="padless_table">
   <thead>
   <tr>
     <th>投票者</th>
