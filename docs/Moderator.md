@@ -213,6 +213,12 @@ function copyhidden(name){
 
 <!-- いつか配列を使う -->
 
+<style>
+.padless_table td, .padless_table th {
+  padding: 0px 0px;
+}
+  </style>
+
 <table id="pts_table" class="padless_table">
   <thead>
   <tr>
