@@ -227,11 +227,11 @@ function copyhidden(name){
   <tbody>
   <tr>
     <td>残りポイント</td>
-    <td><input size="10" v-model='pts_1'></td>
-    <td><input size="10" v-model='pts_2'></td>
-    <td><input size="10" v-model='pts_3'></td>
-    <td><input size="10" v-model='pts_4'></td>
-    <td><input size="10" v-model='pts_5'></td>
+    <td><input size="5" v-model='pts_1'></td>
+    <td><input size="5" v-model='pts_2'></td>
+    <td><input size="5" v-model='pts_3'></td>
+    <td><input size="5" v-model='pts_4'></td>
+    <td><input size="5" v-model='pts_5'></td>
   </tr>
   </tbody>
 </table>
@@ -260,47 +260,47 @@ function copyhidden(name){
   <tr>
     <td>シンフォニー</td>
     <td>{{mur_own_1}}</td>
-    <td><input size="10" v-model='mur_1_1'></td>
-    <td><input size="10" v-model='mur_1_2'></td>
-    <td><input size="10" v-model='mur_1_3'></td>
-    <td><input size="10" v-model='mur_1_4'></td>
-    <td><input size="10" v-model='mur_1_5'></td>
+    <td><input size="5" v-model='mur_1_1'></td>
+    <td><input size="5" v-model='mur_1_2'></td>
+    <td><input size="5" v-model='mur_1_3'></td>
+    <td><input size="5" v-model='mur_1_4'></td>
+    <td><input size="5" v-model='mur_1_5'></td>
   </tr>
   <tr>
     <td>セレナーデ</td>
     <td>{{mur_own_2}}</td>
-    <td><input size="10" v-model='mur_2_1'></td>
-    <td><input size="10" v-model='mur_2_2'></td>
-    <td><input size="10" v-model='mur_2_3'></td>
-    <td><input size="10" v-model='mur_2_4'></td>
-    <td><input size="10" v-model='mur_2_5'></td>
+    <td><input size="5" v-model='mur_2_1'></td>
+    <td><input size="5" v-model='mur_2_2'></td>
+    <td><input size="5" v-model='mur_2_3'></td>
+    <td><input size="5" v-model='mur_2_4'></td>
+    <td><input size="5" v-model='mur_2_5'></td>
   </tr>
   <tr>
     <td>ララバイ</td>
     <td>{{mur_own_3}}</td>
-    <td><input size="10" v-model='mur_3_1'></td>
-    <td><input size="10" v-model='mur_3_2'></td>
-    <td><input size="10" v-model='mur_3_3'></td>
-    <td><input size="10" v-model='mur_3_4'></td>
-    <td><input size="10" v-model='mur_3_5'></td>
+    <td><input size="5" v-model='mur_3_1'></td>
+    <td><input size="5" v-model='mur_3_2'></td>
+    <td><input size="5" v-model='mur_3_3'></td>
+    <td><input size="5" v-model='mur_3_4'></td>
+    <td><input size="5" v-model='mur_3_5'></td>
   </tr>
   <tr>
     <td>キャロル</td>
     <td>{{mur_own_4}}</td>
-    <td><input size="10" v-model='mur_4_1'></td>
-    <td><input size="10" v-model='mur_4_2'></td>
-    <td><input size="10" v-model='mur_4_3'></td>
-    <td><input size="10" v-model='mur_4_4'></td>
-    <td><input size="10" v-model='mur_4_5'></td>
+    <td><input size="5" v-model='mur_4_1'></td>
+    <td><input size="5" v-model='mur_4_2'></td>
+    <td><input size="5" v-model='mur_4_3'></td>
+    <td><input size="5" v-model='mur_4_4'></td>
+    <td><input size="5" v-model='mur_4_5'></td>
   </tr>
   <tr>
     <td>カプリッチオ</td>
     <td>{{mur_own_5}}</td>
-    <td><input size="10" v-model='mur_5_1'></td>
-    <td><input size="10" v-model='mur_5_2'></td>
-    <td><input size="10" v-model='mur_5_3'></td>
-    <td><input size="10" v-model='mur_5_4'></td>
-    <td><input size="10" v-model='mur_5_5'></td>
+    <td><input size="5" v-model='mur_5_1'></td>
+    <td><input size="5" v-model='mur_5_2'></td>
+    <td><input size="5" v-model='mur_5_3'></td>
+    <td><input size="5" v-model='mur_5_4'></td>
+    <td><input size="5" v-model='mur_5_5'></td>
   </tr>
   <tr>
     <td>得票</td>
@@ -346,47 +346,47 @@ function copyhidden(name){
   <tr>
     <td>シンフォニー</td>
     <td>{{ldr_own_1}}</td>
-    <td><input size="10" v-model='ldr_1_1'></td>
-    <td><input size="10" v-model='ldr_1_2'></td>
-    <td><input size="10" v-model='ldr_1_3'></td>
-    <td><input size="10" v-model='ldr_1_4'></td>
-    <td><input size="10" v-model='ldr_1_5'></td>
+    <td><input size="5" v-model='ldr_1_1'></td>
+    <td><input size="5" v-model='ldr_1_2'></td>
+    <td><input size="5" v-model='ldr_1_3'></td>
+    <td><input size="5" v-model='ldr_1_4'></td>
+    <td><input size="5" v-model='ldr_1_5'></td>
   </tr>
   <tr>
     <td>セレナーデ</td>
     <td>{{ldr_own_2}}</td>
-    <td><input size="10" v-model='ldr_2_1'></td>
-    <td><input size="10" v-model='ldr_2_2'></td>
-    <td><input size="10" v-model='ldr_2_3'></td>
-    <td><input size="10" v-model='ldr_2_4'></td>
-    <td><input size="10" v-model='ldr_2_5'></td>
+    <td><input size="5" v-model='ldr_2_1'></td>
+    <td><input size="5" v-model='ldr_2_2'></td>
+    <td><input size="5" v-model='ldr_2_3'></td>
+    <td><input size="5" v-model='ldr_2_4'></td>
+    <td><input size="5" v-model='ldr_2_5'></td>
   </tr>
   <tr>
     <td>ララバイ</td>
     <td>{{ldr_own_3}}</td>
-    <td><input size="10" v-model='ldr_3_1'></td>
-    <td><input size="10" v-model='ldr_3_2'></td>
-    <td><input size="10" v-model='ldr_3_3'></td>
-    <td><input size="10" v-model='ldr_3_4'></td>
-    <td><input size="10" v-model='ldr_3_5'></td>
+    <td><input size="5" v-model='ldr_3_1'></td>
+    <td><input size="5" v-model='ldr_3_2'></td>
+    <td><input size="5" v-model='ldr_3_3'></td>
+    <td><input size="5" v-model='ldr_3_4'></td>
+    <td><input size="5" v-model='ldr_3_5'></td>
   </tr>
   <tr>
     <td>キャロル</td>
     <td>{{ldr_own_4}}</td>
-    <td><input size="10" v-model='ldr_4_1'></td>
-    <td><input size="10" v-model='ldr_4_2'></td>
-    <td><input size="10" v-model='ldr_4_3'></td>
-    <td><input size="10" v-model='ldr_4_4'></td>
-    <td><input size="10" v-model='ldr_4_5'></td>
+    <td><input size="5" v-model='ldr_4_1'></td>
+    <td><input size="5" v-model='ldr_4_2'></td>
+    <td><input size="5" v-model='ldr_4_3'></td>
+    <td><input size="5" v-model='ldr_4_4'></td>
+    <td><input size="5" v-model='ldr_4_5'></td>
   </tr>
   <tr>
     <td>カプリッチオ</td>
     <td>{{ldr_own_5}}</td>
-    <td><input size="10" v-model='ldr_5_1'></td>
-    <td><input size="10" v-model='ldr_5_2'></td>
-    <td><input size="10" v-model='ldr_5_3'></td>
-    <td><input size="10" v-model='ldr_5_4'></td>
-    <td><input size="10" v-model='ldr_5_5'></td>
+    <td><input size="5" v-model='ldr_5_1'></td>
+    <td><input size="5" v-model='ldr_5_2'></td>
+    <td><input size="5" v-model='ldr_5_3'></td>
+    <td><input size="5" v-model='ldr_5_4'></td>
+    <td><input size="5" v-model='ldr_5_5'></td>
   </tr>
     <tr>
     <td>得票</td>

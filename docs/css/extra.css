@@ -16,7 +16,3 @@ input{
  margin:0; padding:0;
  vertical-align:bottom;
 }
-
-.padless_table td, .padless_table th {
-  padding: 0px 0px !important;
-}
