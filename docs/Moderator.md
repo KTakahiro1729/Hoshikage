@@ -204,3 +204,388 @@ function copyhidden(name){
 <p></p>
 
 以降、繰り返し。
+
+### 行動順計算ツール
+
+半角数字で入力してください。雑に作っているので、それ以外の数字を入れると容易にバグります。
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+<!-- いつか配列を使う -->
+
+<table id="pts_table">
+  <thead>
+  <tr>
+    <th>投票者</th>
+    <th>シンフォニー</th>
+    <th>セレナーデ</th>
+    <th>ララバイ</th>
+    <th>キャロル</th>
+    <th>カプリッチオ</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>残りポイント</td>
+    <td><input size="10" v-model='pts_1'></td>
+    <td><input size="10" v-model='pts_2'></td>
+    <td><input size="10" v-model='pts_3'></td>
+    <td><input size="10" v-model='pts_4'></td>
+    <td><input size="10" v-model='pts_5'></td>
+  </tr>
+  </tbody>
+</table>
+
+<p></p>
+
+<table id="mur_table">
+  <thead>
+  <tr>
+    <th>投票者</th>
+    <th>使用票数</th>
+    <th colspan="5">犯人投票先</th>
+  </tr>
+  </thead>
+
+  <tbody>
+   <tr>
+    <td></td>
+    <td></td>
+    <td>シンフォニー</td>
+    <td>セレナーデ</td>
+    <td>ララバイ</td>
+    <td>キャロル</td>
+    <td>カプリッチオ</td>
+  </tr>
+  <tr>
+    <td>シンフォニー</td>
+    <td>{{mur_own_1}}</td>
+    <td><input size="10" v-model='mur_1_1'></td>
+    <td><input size="10" v-model='mur_1_2'></td>
+    <td><input size="10" v-model='mur_1_3'></td>
+    <td><input size="10" v-model='mur_1_4'></td>
+    <td><input size="10" v-model='mur_1_5'></td>
+  </tr>
+  <tr>
+    <td>セレナーデ</td>
+    <td>{{mur_own_2}}</td>
+    <td><input size="10" v-model='mur_2_1'></td>
+    <td><input size="10" v-model='mur_2_2'></td>
+    <td><input size="10" v-model='mur_2_3'></td>
+    <td><input size="10" v-model='mur_2_4'></td>
+    <td><input size="10" v-model='mur_2_5'></td>
+  </tr>
+  <tr>
+    <td>ララバイ</td>
+    <td>{{mur_own_3}}</td>
+    <td><input size="10" v-model='mur_3_1'></td>
+    <td><input size="10" v-model='mur_3_2'></td>
+    <td><input size="10" v-model='mur_3_3'></td>
+    <td><input size="10" v-model='mur_3_4'></td>
+    <td><input size="10" v-model='mur_3_5'></td>
+  </tr>
+  <tr>
+    <td>キャロル</td>
+    <td>{{mur_own_4}}</td>
+    <td><input size="10" v-model='mur_4_1'></td>
+    <td><input size="10" v-model='mur_4_2'></td>
+    <td><input size="10" v-model='mur_4_3'></td>
+    <td><input size="10" v-model='mur_4_4'></td>
+    <td><input size="10" v-model='mur_4_5'></td>
+  </tr>
+  <tr>
+    <td>カプリッチオ</td>
+    <td>{{mur_own_5}}</td>
+    <td><input size="10" v-model='mur_5_1'></td>
+    <td><input size="10" v-model='mur_5_2'></td>
+    <td><input size="10" v-model='mur_5_3'></td>
+    <td><input size="10" v-model='mur_5_4'></td>
+    <td><input size="10" v-model='mur_5_5'></td>
+  </tr>
+  <tr>
+    <td>得票</td>
+    <td></td>
+    <td>{{mur_1}}</td>
+    <td>{{mur_2}}</td>
+    <td>{{mur_3}}</td>
+    <td>{{mur_4}}</td>
+    <td>{{mur_5}}</td>
+  </tr>
+  <tr>
+    <td>得pt</td>
+    <td></td>
+    <td>{{mur_pt_1}}</td>
+    <td>{{mur_pt_2}}</td>
+    <td>{{mur_pt_3}}</td>
+    <td>{{mur_pt_4}}</td>
+    <td>{{mur_pt_5}}</td>
+  </tr>
+  </tbody>
+</table>
+<p></p>
+
+
+<table id="ldr_table">
+  <thead>
+  <tr>
+    <th>投票者</th>
+    <th>使用票数</th>
+    <th colspan="5">リーダー投票先</th>
+  </tr>
+  </thead>
+  <tbody>
+     <tr>
+    <td></td>
+    <td></td>
+    <td>シンフォニー</td>
+    <td>セレナーデ</td>
+    <td>ララバイ</td>
+    <td>キャロル</td>
+    <td>カプリッチオ</td>
+  </tr>
+  <tr>
+    <td>シンフォニー</td>
+    <td>{{ldr_own_1}}</td>
+    <td><input size="10" v-model='ldr_1_1'></td>
+    <td><input size="10" v-model='ldr_1_2'></td>
+    <td><input size="10" v-model='ldr_1_3'></td>
+    <td><input size="10" v-model='ldr_1_4'></td>
+    <td><input size="10" v-model='ldr_1_5'></td>
+  </tr>
+  <tr>
+    <td>セレナーデ</td>
+    <td>{{ldr_own_2}}</td>
+    <td><input size="10" v-model='ldr_2_1'></td>
+    <td><input size="10" v-model='ldr_2_2'></td>
+    <td><input size="10" v-model='ldr_2_3'></td>
+    <td><input size="10" v-model='ldr_2_4'></td>
+    <td><input size="10" v-model='ldr_2_5'></td>
+  </tr>
+  <tr>
+    <td>ララバイ</td>
+    <td>{{ldr_own_3}}</td>
+    <td><input size="10" v-model='ldr_3_1'></td>
+    <td><input size="10" v-model='ldr_3_2'></td>
+    <td><input size="10" v-model='ldr_3_3'></td>
+    <td><input size="10" v-model='ldr_3_4'></td>
+    <td><input size="10" v-model='ldr_3_5'></td>
+  </tr>
+  <tr>
+    <td>キャロル</td>
+    <td>{{ldr_own_4}}</td>
+    <td><input size="10" v-model='ldr_4_1'></td>
+    <td><input size="10" v-model='ldr_4_2'></td>
+    <td><input size="10" v-model='ldr_4_3'></td>
+    <td><input size="10" v-model='ldr_4_4'></td>
+    <td><input size="10" v-model='ldr_4_5'></td>
+  </tr>
+  <tr>
+    <td>カプリッチオ</td>
+    <td>{{ldr_own_5}}</td>
+    <td><input size="10" v-model='ldr_5_1'></td>
+    <td><input size="10" v-model='ldr_5_2'></td>
+    <td><input size="10" v-model='ldr_5_3'></td>
+    <td><input size="10" v-model='ldr_5_4'></td>
+    <td><input size="10" v-model='ldr_5_5'></td>
+  </tr>
+    <tr>
+    <td>得票</td>
+    <td></td>
+    <td>{{ldr_1}}</td>
+    <td>{{ldr_2}}</td>
+    <td>{{ldr_3}}</td>
+    <td>{{ldr_4}}</td>
+    <td>{{ldr_5}}</td>
+  </tr>
+  <tr>
+    <td>得pt</td>
+    <td></td>
+    <td>{{ldr_pt_1}}</td>
+    <td>{{ldr_pt_2}}</td>
+    <td>{{ldr_pt_3}}</td>
+    <td>{{ldr_pt_4}}</td>
+    <td>{{ldr_pt_5}}</td>
+  </tr>
+  </tbody>
+</table>
+
+<p></p>
+
+<table id="odr_table">
+  <thead>
+  <tr>
+    <th>行動順</th>
+    <th>キャラクター</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>リーダー</td>
+    <td>{{chrs[0]}}</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>{{chrs[1]}}</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>{{chrs[2]}}</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>{{chrs[3]}}</td>
+  </tr>
+  <tr>
+    <td>犯人</td>
+    <td>{{chrs[4]}}</td>
+  </tr>
+  </tbody>
+</table>
+
+
+<script>
+const pts_table = new Vue({
+  el: "#pts_table",
+  data: {
+  pts_1: 0, pts_2: 0, pts_3: 0, pts_4: 0, pts_5: 0,}
+})
+
+const mur_table = new Vue({
+  el: "#mur_table",
+  data: {
+  mur_1_1: 0, mur_1_2: 0, mur_1_3: 0, mur_1_4: 0, mur_1_5: 0, 
+  mur_2_1: 0, mur_2_2: 0, mur_2_3: 0, mur_2_4: 0, mur_2_5: 0, 
+  mur_3_1: 0, mur_3_2: 0, mur_3_3: 0, mur_3_4: 0, mur_3_5: 0, 
+  mur_4_1: 0, mur_4_2: 0, mur_4_3: 0, mur_4_4: 0, mur_4_5: 0, 
+  mur_5_1: 0, mur_5_2: 0, mur_5_3: 0, mur_5_4: 0, mur_5_5: 0, 
+  },
+  computed: {
+    mur_1: function(){return Number(this.mur_1_1) + Number(this.mur_2_1) + Number(this.mur_3_1) + Number(this.mur_4_1) + Number(this.mur_5_1)},
+    mur_2: function(){return Number(this.mur_1_2) + Number(this.mur_2_2) + Number(this.mur_3_2) + Number(this.mur_4_2) + Number(this.mur_5_2)},
+    mur_3: function(){return Number(this.mur_1_3) + Number(this.mur_2_3) + Number(this.mur_3_3) + Number(this.mur_4_3) + Number(this.mur_5_3)},
+    mur_4: function(){return Number(this.mur_1_4) + Number(this.mur_2_4) + Number(this.mur_3_4) + Number(this.mur_4_4) + Number(this.mur_5_4)},
+    mur_5: function(){return Number(this.mur_1_5) + Number(this.mur_2_5) + Number(this.mur_3_5) + Number(this.mur_4_5) + Number(this.mur_5_5)},
+    mur_pt_1: function(){return Number(this.mur_1_1*pts_table.pts_1) + Number(this.mur_2_1*pts_table.pts_2) + Number(this.mur_3_1*pts_table.pts_3) + Number(this.mur_4_1*pts_table.pts_4) + Number(this.mur_5_1*pts_table.pts_5)},
+    mur_pt_2: function(){return Number(this.mur_1_2*pts_table.pts_1) + Number(this.mur_2_2*pts_table.pts_2) + Number(this.mur_3_2*pts_table.pts_3) + Number(this.mur_4_2*pts_table.pts_4) + Number(this.mur_5_2*pts_table.pts_5)},
+    mur_pt_3: function(){return Number(this.mur_1_3*pts_table.pts_1) + Number(this.mur_2_3*pts_table.pts_2) + Number(this.mur_3_3*pts_table.pts_3) + Number(this.mur_4_3*pts_table.pts_4) + Number(this.mur_5_3*pts_table.pts_5)},
+    mur_pt_4: function(){return Number(this.mur_1_4*pts_table.pts_1) + Number(this.mur_2_4*pts_table.pts_2) + Number(this.mur_3_4*pts_table.pts_3) + Number(this.mur_4_4*pts_table.pts_4) + Number(this.mur_5_4*pts_table.pts_5)},
+    mur_pt_5: function(){return Number(this.mur_1_5*pts_table.pts_1) + Number(this.mur_2_5*pts_table.pts_2) + Number(this.mur_3_5*pts_table.pts_3) + Number(this.mur_4_5*pts_table.pts_4) + Number(this.mur_5_5*pts_table.pts_5)},
+    mur_own_1: function(){return Number(this.mur_1_1) + Number(this.mur_1_2) + Number(this.mur_1_3) + Number(this.mur_1_4) + Number(this.mur_1_5)},
+    mur_own_2: function(){return Number(this.mur_2_1) + Number(this.mur_2_2) + Number(this.mur_2_3) + Number(this.mur_2_4) + Number(this.mur_2_5)},
+    mur_own_3: function(){return Number(this.mur_3_1) + Number(this.mur_3_2) + Number(this.mur_3_3) + Number(this.mur_3_4) + Number(this.mur_3_5)},
+    mur_own_4: function(){return Number(this.mur_4_1) + Number(this.mur_4_2) + Number(this.mur_4_3) + Number(this.mur_4_4) + Number(this.mur_4_5)},
+    mur_own_5: function(){return Number(this.mur_5_1) + Number(this.mur_5_2) + Number(this.mur_5_3) + Number(this.mur_5_4) + Number(this.mur_5_5)
+    
+    }, 
+  }
+})
+
+const ldr_table = new Vue({
+  el: "#ldr_table",
+  data: {
+  ldr_1_1: 0, ldr_1_2: 0, ldr_1_3: 0, ldr_1_4: 0, ldr_1_5: 0,
+  ldr_2_1: 0, ldr_2_2: 0, ldr_2_3: 0, ldr_2_4: 0, ldr_2_5: 0,
+  ldr_3_1: 0, ldr_3_2: 0, ldr_3_3: 0, ldr_3_4: 0, ldr_3_5: 0,
+  ldr_4_1: 0, ldr_4_2: 0, ldr_4_3: 0, ldr_4_4: 0, ldr_4_5: 0,
+  ldr_5_1: 0, ldr_5_2: 0, ldr_5_3: 0, ldr_5_4: 0, ldr_5_5: 0,
+  },
+  computed: {
+    ldr_1: function(){return Number(this.ldr_1_1) + Number(this.ldr_2_1) + Number(this.ldr_3_1) + Number(this.ldr_4_1) + Number(this.ldr_5_1)},
+    ldr_2: function(){return Number(this.ldr_1_2) + Number(this.ldr_2_2) + Number(this.ldr_3_2) + Number(this.ldr_4_2) + Number(this.ldr_5_2)},
+    ldr_3: function(){return Number(this.ldr_1_3) + Number(this.ldr_2_3) + Number(this.ldr_3_3) + Number(this.ldr_4_3) + Number(this.ldr_5_3)},
+    ldr_4: function(){return Number(this.ldr_1_4) + Number(this.ldr_2_4) + Number(this.ldr_3_4) + Number(this.ldr_4_4) + Number(this.ldr_5_4)},
+    ldr_5: function(){return Number(this.ldr_1_5) + Number(this.ldr_2_5) + Number(this.ldr_3_5) + Number(this.ldr_4_5) + Number(this.ldr_5_5)},
+    ldr_pt_1: function(){return Number(this.ldr_1_1*pts_table.pts_1) + Number(this.ldr_2_1*pts_table.pts_2) + Number(this.ldr_3_1*pts_table.pts_3) + Number(this.ldr_4_1*pts_table.pts_4) + Number(this.ldr_5_1*pts_table.pts_5)},
+    ldr_pt_2: function(){return Number(this.ldr_1_2*pts_table.pts_1) + Number(this.ldr_2_2*pts_table.pts_2) + Number(this.ldr_3_2*pts_table.pts_3) + Number(this.ldr_4_2*pts_table.pts_4) + Number(this.ldr_5_2*pts_table.pts_5)},
+    ldr_pt_3: function(){return Number(this.ldr_1_3*pts_table.pts_1) + Number(this.ldr_2_3*pts_table.pts_2) + Number(this.ldr_3_3*pts_table.pts_3) + Number(this.ldr_4_3*pts_table.pts_4) + Number(this.ldr_5_3*pts_table.pts_5)},
+    ldr_pt_4: function(){return Number(this.ldr_1_4*pts_table.pts_1) + Number(this.ldr_2_4*pts_table.pts_2) + Number(this.ldr_3_4*pts_table.pts_3) + Number(this.ldr_4_4*pts_table.pts_4) + Number(this.ldr_5_4*pts_table.pts_5)},
+    ldr_pt_5: function(){return Number(this.ldr_1_5*pts_table.pts_1) + Number(this.ldr_2_5*pts_table.pts_2) + Number(this.ldr_3_5*pts_table.pts_3) + Number(this.ldr_4_5*pts_table.pts_4) + Number(this.ldr_5_5*pts_table.pts_5)},
+    ldr_own_1: function(){return Number(this.ldr_1_1) + Number(this.ldr_1_2) + Number(this.ldr_1_3) + Number(this.ldr_1_4) + Number(this.ldr_1_5)},
+    ldr_own_2: function(){return Number(this.ldr_2_1) + Number(this.ldr_2_2) + Number(this.ldr_2_3) + Number(this.ldr_2_4) + Number(this.ldr_2_5)},
+    ldr_own_3: function(){return Number(this.ldr_3_1) + Number(this.ldr_3_2) + Number(this.ldr_3_3) + Number(this.ldr_3_4) + Number(this.ldr_3_5)},
+    ldr_own_4: function(){return Number(this.ldr_4_1) + Number(this.ldr_4_2) + Number(this.ldr_4_3) + Number(this.ldr_4_4) + Number(this.ldr_4_5)},
+    ldr_own_5: function(){return Number(this.ldr_5_1) + Number(this.ldr_5_2) + Number(this.ldr_5_3) + Number(this.ldr_5_4) + Number(this.ldr_5_5)}, 
+  }
+})
+
+function pick_maxs(chr_votes){
+  var result = [];
+  var max_vote = Math.max.apply(null, chr_votes)
+  for (let i = 0; i < chr_votes.length; i++){
+     if (chr_votes[i] == max_vote) result.push(i);
+  }
+  return [max_vote, result]
+}
+
+var chr_name = {
+  1: "シンフォニー",
+  2: "セレナーデ",
+  3: "ララバイ",
+  4: "キャロル",
+  5: "カプリッチオ", 
+  }
+
+function val_chr(a){
+  return a[0]*10000 + a[1]*1000 - a[2] * 100 - a[3]*10 + a[4]
+}
+
+function sort_chr(a, b){
+  return val_chr(b)-val_chr(a)
+}
+
+function sort_dict_keys(dict){
+  var array = Object.keys(dict).map((k)=>({ key: k, value: dict[k] }));
+
+  array.sort((a, b) => b.value - a.value);
+
+return array.map(k=>k.key)
+}
+
+function calc_order(){
+  var mur_chr = "";
+  var ldr_chr = "";
+  var mur_order = [
+    [+mur_table.mur_1, -pts_table.pts_1, +mur_table.mur_pt_1, 1, 0],
+    [+mur_table.mur_2, -pts_table.pts_2, +mur_table.mur_pt_2, 2, 0],
+    [+mur_table.mur_3, -pts_table.pts_3, +mur_table.mur_pt_3, 3, 0],
+    [+mur_table.mur_4, -pts_table.pts_4, +mur_table.mur_pt_4, 4, 0],
+    [+mur_table.mur_5, -pts_table.pts_5, +mur_table.mur_pt_5, 5, 0],
+  ];
+  var ldr_order = [
+    [+ldr_table.ldr_1, +pts_table.pts_1, +ldr_table.ldr_pt_1, 1, 1],
+    [+ldr_table.ldr_2, +pts_table.pts_2, +ldr_table.ldr_pt_2, 2, 1],
+    [+ldr_table.ldr_3, +pts_table.pts_3, +ldr_table.ldr_pt_3, 3, 1],
+    [+ldr_table.ldr_4, +pts_table.pts_4, +ldr_table.ldr_pt_4, 4, 1],
+    [+ldr_table.ldr_5, +pts_table.pts_5, +ldr_table.ldr_pt_5, 5, 1],
+  ];
+  var sorted_ = mur_order.concat(ldr_order).sort(sort_chr)
+  var first_ele = sorted_[0]
+  if (first_ele[3] == 0){
+    mur_chr = first_ele[3];
+    ldr_order.splice(mur_chr-1, 1)
+    ldr_chr = ldr_order.sort(sort_chr)[0][3];
+  }else{
+    ldr_chr = first_ele[3];
+    mur_order.splice(ldr_chr-1, 1)
+    mur_chr = mur_order.sort(sort_chr)[0][3];
+  }
+  var other_chr = {1: pts_table.pts_1, 2: pts_table.pts_2, 3: pts_table.pts_3, 4: pts_table.pts_4, 5: pts_table.pts_5};
+  delete other_chr[mur_chr]
+  delete other_chr[ldr_chr]
+  var other_chr_sorted_arr = sort_dict_keys(other_chr).map(k=>chr_name[k])
+  
+  
+
+
+  return [chr_name[ldr_chr]].concat(other_chr_sorted_arr).concat([chr_name[mur_chr]])
+}
+
+const odr_table = new Vue({
+  el: "#odr_table",
+  computed: {
+    chrs: calc_order
+  },
+})
+
+
+</script>
