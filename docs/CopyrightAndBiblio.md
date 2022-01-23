@@ -73,6 +73,9 @@ MITライセンスで開発されているため、商用利用可能です。
 
 ## 参考文献
 - [「ハスター神話」に関する覚書](http://www7a.biglobe.ne.jp/~byakhee/essay/hastur.html)
+- [Hastur | The H.P.Lovecraft Wiki](https://lovecraft.fandom.com/wiki/Hastur)
+- [The Yello Sign(the symbol) | The Yellow Site](https://kinginyellow.fandom.com/wiki/The_Yellow_Sign_(the_symbol))
+- [十三回忌の次は何回忌の法要？年忌法要の種類や弔い上げの時期を徹底解説](https://www.osohshiki.jp/column/article/1197/)
 
 ……現在作成中
 
