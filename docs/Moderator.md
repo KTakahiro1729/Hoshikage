@@ -7,7 +7,7 @@
 ## オープニング
 推奨BGM: フーガ ト短調 BWV 578 （バッハ作曲）
 
-[オープニング台本](resources/HandOuts/CommonHandOut.pdf#page=8)の読み合わせをお願いします。
+[オープニング台本](resources/HandOuts/Opening.pdf)の読み合わせをお願いします。
 
 ## 調査・密談・全体会議
 カード調査や会話を行うフェーズです。
