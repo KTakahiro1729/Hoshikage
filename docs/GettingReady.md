@@ -29,7 +29,7 @@
 いずれのzipファイルにもBGMは同梱されていません。作者推奨のBGMへのダウンロードリンクは[素材置き場](Resources.md)にありますので参照してください。
 
 #### [ココフォリア](https://ccfolia.com/)
-[ココフォリア](https://ccfolia.com/)が一番きれいに見えると思います。[zipファイル](https://drive.google.com/file/d/1kPxyhMw3spRK8CCU7UHVhuzC22xXapQ4/view?usp=sharing)をDLの上、ココフォリアにドラッグ&ドロップしてください。
+[ココフォリア](https://ccfolia.com/)が一番きれいに見えると思います。[zipファイル](https://drive.google.com/file/d/1yzDo_SoikH6oG6MLX4_kj3XZn8Zd9Hxv/view?usp=sharing)をDLの上、ココフォリアにドラッグ&ドロップしてください。
 
 #### [平面化ユドナリウム](https://udonarium2d.netlify.app/)
 調査ポイントのマーカーが2Dであるため、[ユドナリウム](https://udonarium.app/)よりも[平面化ユドナリウム](https://udonarium2d.netlify.app/)を推奨します。いずれも[zipファイル](https://drive.google.com/file/d/1zI27TB5o9nv9CEYG5iRBaXjfuBP41187/view?usp=sharing)を読み込んでください。
