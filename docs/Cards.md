@@ -277,48 +277,48 @@
 ## 新聞紙
 
 ### 197年4月12日 超高層ビル完成
-<img src="../resources/Cards/NewsPaper_4_back.png" width="40%" height="40%">
-<img src="../resources/Cards/NewsPaper_4_front.png" width="40%" height="40%">
+<img src="../resources/Cards/Newspaper_4_back.png" width="40%" height="40%">
+<img src="../resources/Cards/Newspaper_4_front.png" width="40%" height="40%">
 
 サリヤが経済推進都市と記載のある唯一の箇所です。最後の超高層ビル建造が完成した冬が訪れる前にフーガは石板を盗み出し、儀式を阻止したのです。事実、政府はその冬、ロンドが提出した石板の解析レポートをもとに儀式を実行しましたが、（石板がなく、音程も不正確だったため）失敗しています。
 
 蛇座にした理由は覚えていません。たしか、「ヤマタノオロチを超高層ビルに見立てて～」みたいな論理だったと思います。だいぶこじつけに無理があります。
 
 ### 200年7月12日 ファロス灯台の歴史
-<img src="../resources/Cards/NewsPaper_5_back.png" width="40%" height="40%">
-<img src="../resources/Cards/NewsPaper_5_front.png" width="40%" height="40%">
+<img src="../resources/Cards/Newspaper_5_back.png" width="40%" height="40%">
+<img src="../resources/Cards/Newspaper_5_front.png" width="40%" height="40%">
 
 ファロス灯台近海の難所であり、かつてはこの巨岩の上に篝火をおいて灯台として運用していたとかなんとか。右端にはフーガが「Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn」と書いています。どこかで見つけた呪文をメモったんでしょうか？
 
 クトゥルフ神話関係で個人的に好きな説があって、それが「九頭竜」を「クトゥルー」と同一視するものです。だからって、龍座はクトゥルフと関係するよねーっていうのも無理があると思うのですが、皆さんはどう思いますか？
 
 ### 199年8月2日 周辺諸国との緊張
-<img src="../resources/Cards/NewsPaper_1_back.png" width="40%" height="40%">
-<img src="../resources/Cards/NewsPaper_1_front.png" width="40%" height="40%">
+<img src="../resources/Cards/Newspaper_1_back.png" width="40%" height="40%">
+<img src="../resources/Cards/Newspaper_1_front.png" width="40%" height="40%">
 
 χ国政府が野心を持っていることを示すカードです。また、スパイがいることを示唆することで、シンフォニーがカプリッチオをスパイだと疑うようご誘導しています。
 
 海蛇座、英名ヒュドラは英雄ヘラクレスと争った怪物の一体です。ヘラクレス=犯人カード=シンフォニーがスパイと関係が深いために採用したカードです。
 
 ### 198年10月17日 コラム:「冬族の歴史」
-<img src="../resources/Cards/NewsPaper_6_back.png" width="40%" height="40%">
-<img src="../resources/Cards/NewsPaper_6_front.png" width="40%" height="40%">
+<img src="../resources/Cards/Newspaper_6_back.png" width="40%" height="40%">
+<img src="../resources/Cards/Newspaper_6_front.png" width="40%" height="40%">
 
 ララバイの出自に関連するカードです。情報として大した意味はなく、ただ単に「こういう側面があると知ってほしかった」というカードです。ちなみに、本作の登場人物の大半は秋族の血筋ですが、ララバイが冬族、ロンドとキャロルは夏族、カプリッチオはγ国生まれでいずれでもありません。
 
 うさぎ座はドデカネス諸島のレロス島で起きた、愚かな事件の戒めとして星座になりました。差別も過去の愚かな行為として戒められるといいのですが……。
 
 ### 190年12月1日 大規模宗教抗争か
-<img src="../resources/Cards/NewsPaper_2_back.png" width="40%" height="40%">
-<img src="../resources/Cards/NewsPaper_2_front.png" width="40%" height="40%">
+<img src="../resources/Cards/Newspaper_2_back.png" width="40%" height="40%">
+<img src="../resources/Cards/Newspaper_2_front.png" width="40%" height="40%">
 
 キャロルの過去に関するカードです。黄色の印の親子団は当局によって襲撃されたのですが、刃物で死因を偽装した上に、クトゥルフを信仰していた「ハイドラ教団」を滅ぼす口実として使いました。
 
 星図上、ケンタウルスに刺される狼、として描かれているのがこの星座です。この盤面におけるケンタウルスはロンドを指し、「ロンドが政府に密告したことで黄色の印の親子団が襲撃された」と仄めかしています。
 
 ### 201年12月2日 図書館員自殺
-<img src="../resources/Cards/NewsPaper_3_back.png" width="40%" height="40%">
-<img src="../resources/Cards/NewsPaper_3_front.png" width="40%" height="40%">
+<img src="../resources/Cards/Newspaper_3_back.png" width="40%" height="40%">
+<img src="../resources/Cards/Newspaper_3_front.png" width="40%" height="40%">
 
 アオイが死んだ事件のニュースです。カプリッチオの運がものすごく悪いと、このカードを見るまでアリアの死を知らない、なんていう展開もあったりします。この事件が自殺として処理された理由は、アリアがパソコンに残した遺書にあります。bwv1068という暗号を解いた当局は、遺書の隠蔽を謀ります。他殺に比べて自殺は報道の規模も、向けられる目も桁違いで、アリアの命を賭けた勝負も不発に終わります。
 
