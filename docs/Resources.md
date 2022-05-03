@@ -58,7 +58,7 @@ BGMなど、作成者が使用した素材へのリンクです。各素材の�
 
 - [G線上のアリア BWV1068](http://classical-sound.seesaa.net/article/470966445.html)
 - [小フーガ ト短調 BWV578](http://classical-sound.seesaa.net/article/218983440.html)
-- [交響曲第3番 変ホ長調 作品55『英雄』](http://classical-sound.seesaa.net/article/465448569.html)
+- [交響曲第3番 変ホ長調 作品55『英雄』](http://classical-sound.seesaa.net/article/465448569.html) : こちらファイルが大きいため、ココフォリアにアップロードができません。mp3圧縮サイトなどをご活用ください。
 - [24の奇想曲 第24番 イ短調](http://classical-sound.seesaa.net/article/217720806.html)
 - [シューベルトのセレナード](http://classical-sound.seesaa.net/article/210779741.html)
 - [パッヘルベルのカノン](http://classical-sound.seesaa.net/article/472845789.html)
@@ -75,6 +75,13 @@ BGMなど、作成者が使用した素材へのリンクです。各素材の�
 - [コヴェントリー・キャロル](https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:U.S._Army_Band_-_Coventry_Carol.ogg)
 
 ### [H.P.ラヴクラフト歴史協会](https://www.hplhs.org/)様
-無料配布されているものを使用しましたが、商用利用の可否に関しては明確な規約を見つけられていません。元の曲の[Carol of the Bells](https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A3%E3%83%AD%E3%83%AB%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%99%E3%83%AB)は著作権が切れているため、商用利用可の音源もあるとは思います。
+無料配布されているものを使用しましたが、商用利用の可否に関しては明確な規約を見つけられていません。
 
 - [旧支配者のキャロル](https://store.hplhs.org/products/a-very-scary-solstice)
+
+配信等の際には下記のBGMのご活用をご検討ください。
+
+### [DOVA-SYNDROME](https://dova-s.jp/)様
+[ライセンス](https://dova-s.jp/_contents/license/)、[利用規約](https://dova-s.jp/_contents/agreement/)
+
+- [旧支配者のキャロル](https://dova-s.jp/bgm/play14442.html)
