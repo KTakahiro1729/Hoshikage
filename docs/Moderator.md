@@ -232,213 +232,71 @@ function copyhidden(name){
 
 ### 行動順計算ツール
 
-**バグがあるので今は手計算でお願いします。**
-
 半角数字で入力してください。雑に作っているので、それ以外の数字を入れると容易にバグります。
 
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 
-<!-- いつか配列を使う -->
+<div id="app">
 
-<table id="pts_table" class="padless_table">
+<h3> 投票先入力 </h3>
+
+<table>
   <thead>
   <tr>
-    <th>投票者</th>
-    <th>シンフォニー</th>
-    <th>セレナーデ</th>
-    <th>ララバイ</th>
-    <th>キャロル</th>
-    <th>カプリッチオ</th>
+    <th></th>
+    <th>投票権</th>
+    <th>調査pt</th>
+    <th>犯人</th>
+    <th>リーダー</th>
   </tr>
   </thead>
   <tbody>
-  <tr>
-    <td>残りポイント</td>
-    <td><input size="5" v-model='pts_1'></td>
-    <td><input size="5" v-model='pts_2'></td>
-    <td><input size="5" v-model='pts_3'></td>
-    <td><input size="5" v-model='pts_4'></td>
-    <td><input size="5" v-model='pts_5'></td>
+  <tr v-for="character in characters" :key="character.id" >
+    <td>{{ character.name }}</td>
+    <td><input size="3" v-model.number="character.ballot_cnt"></td>
+    <td><input size="3" v-model.number="character.left_pt"></td>
+    <td>
+      <select v-model.number="character.vote_mud">
+        <option v-for="char_choice in characters" v-bind:value="char_choice.id">{{ char_choice.name }}</option>
+      </select>
+  </td>
+  <td>
+      <select v-model.number="character.vote_ldr">
+        <option v-for="char_choice in characters" v-bind:value="char_choice.id">{{ char_choice.name }}</option>
+      </select>
+  </td>
   </tr>
   </tbody>
 </table>
 
-<p></p>
+<h3> 票数集計 </h3>
 
-<table id="mur_table" class="padless_table">
+<table>
   <thead>
   <tr>
-    <th>投票者</th>
-    <th>使用票数</th>
-    <th colspan="5">犯人投票先</th>
-  </tr>
-  </thead>
-
-  <tbody>
-   <tr>
-    <td></td>
-    <td></td>
-    <td>シンフォニー</td>
-    <td>セレナーデ</td>
-    <td>ララバイ</td>
-    <td>キャロル</td>
-    <td>カプリッチオ</td>
-  </tr>
-  <tr>
-    <td>シンフォニー</td>
-    <td>{{mur_own_1}}</td>
-    <td><input size="5" v-model='mur_1_1'></td>
-    <td><input size="5" v-model='mur_1_2'></td>
-    <td><input size="5" v-model='mur_1_3'></td>
-    <td><input size="5" v-model='mur_1_4'></td>
-    <td><input size="5" v-model='mur_1_5'></td>
-  </tr>
-  <tr>
-    <td>セレナーデ</td>
-    <td>{{mur_own_2}}</td>
-    <td><input size="5" v-model='mur_2_1'></td>
-    <td><input size="5" v-model='mur_2_2'></td>
-    <td><input size="5" v-model='mur_2_3'></td>
-    <td><input size="5" v-model='mur_2_4'></td>
-    <td><input size="5" v-model='mur_2_5'></td>
-  </tr>
-  <tr>
-    <td>ララバイ</td>
-    <td>{{mur_own_3}}</td>
-    <td><input size="5" v-model='mur_3_1'></td>
-    <td><input size="5" v-model='mur_3_2'></td>
-    <td><input size="5" v-model='mur_3_3'></td>
-    <td><input size="5" v-model='mur_3_4'></td>
-    <td><input size="5" v-model='mur_3_5'></td>
-  </tr>
-  <tr>
-    <td>キャロル</td>
-    <td>{{mur_own_4}}</td>
-    <td><input size="5" v-model='mur_4_1'></td>
-    <td><input size="5" v-model='mur_4_2'></td>
-    <td><input size="5" v-model='mur_4_3'></td>
-    <td><input size="5" v-model='mur_4_4'></td>
-    <td><input size="5" v-model='mur_4_5'></td>
-  </tr>
-  <tr>
-    <td>カプリッチオ</td>
-    <td>{{mur_own_5}}</td>
-    <td><input size="5" v-model='mur_5_1'></td>
-    <td><input size="5" v-model='mur_5_2'></td>
-    <td><input size="5" v-model='mur_5_3'></td>
-    <td><input size="5" v-model='mur_5_4'></td>
-    <td><input size="5" v-model='mur_5_5'></td>
-  </tr>
-  <tr>
-    <td>得票</td>
-    <td></td>
-    <td>{{mur_1}}</td>
-    <td>{{mur_2}}</td>
-    <td>{{mur_3}}</td>
-    <td>{{mur_4}}</td>
-    <td>{{mur_5}}</td>
-  </tr>
-  <tr>
-    <td>得pt</td>
-    <td></td>
-    <td>{{mur_pt_1}}</td>
-    <td>{{mur_pt_2}}</td>
-    <td>{{mur_pt_3}}</td>
-    <td>{{mur_pt_4}}</td>
-    <td>{{mur_pt_5}}</td>
-  </tr>
-  </tbody>
-</table>
-<p></p>
-
-
-<table id="ldr_table" class="padless_table">
-  <thead>
-  <tr>
-    <th>投票者</th>
-    <th>使用票数</th>
-    <th colspan="5">リーダー投票先</th>
+    <th></th>
+    <th>調査pt</th>
+    <th>犯人</th>
+    <th>リーダー</th>
+    <th>犯人*pt</th>
+    <th>リーダー*pt</th>
   </tr>
   </thead>
   <tbody>
-     <tr>
-    <td></td>
-    <td></td>
-    <td>シンフォニー</td>
-    <td>セレナーデ</td>
-    <td>ララバイ</td>
-    <td>キャロル</td>
-    <td>カプリッチオ</td>
-  </tr>
-  <tr>
-    <td>シンフォニー</td>
-    <td>{{ldr_own_1}}</td>
-    <td><input size="5" v-model='ldr_1_1'></td>
-    <td><input size="5" v-model='ldr_1_2'></td>
-    <td><input size="5" v-model='ldr_1_3'></td>
-    <td><input size="5" v-model='ldr_1_4'></td>
-    <td><input size="5" v-model='ldr_1_5'></td>
-  </tr>
-  <tr>
-    <td>セレナーデ</td>
-    <td>{{ldr_own_2}}</td>
-    <td><input size="5" v-model='ldr_2_1'></td>
-    <td><input size="5" v-model='ldr_2_2'></td>
-    <td><input size="5" v-model='ldr_2_3'></td>
-    <td><input size="5" v-model='ldr_2_4'></td>
-    <td><input size="5" v-model='ldr_2_5'></td>
-  </tr>
-  <tr>
-    <td>ララバイ</td>
-    <td>{{ldr_own_3}}</td>
-    <td><input size="5" v-model='ldr_3_1'></td>
-    <td><input size="5" v-model='ldr_3_2'></td>
-    <td><input size="5" v-model='ldr_3_3'></td>
-    <td><input size="5" v-model='ldr_3_4'></td>
-    <td><input size="5" v-model='ldr_3_5'></td>
-  </tr>
-  <tr>
-    <td>キャロル</td>
-    <td>{{ldr_own_4}}</td>
-    <td><input size="5" v-model='ldr_4_1'></td>
-    <td><input size="5" v-model='ldr_4_2'></td>
-    <td><input size="5" v-model='ldr_4_3'></td>
-    <td><input size="5" v-model='ldr_4_4'></td>
-    <td><input size="5" v-model='ldr_4_5'></td>
-  </tr>
-  <tr>
-    <td>カプリッチオ</td>
-    <td>{{ldr_own_5}}</td>
-    <td><input size="5" v-model='ldr_5_1'></td>
-    <td><input size="5" v-model='ldr_5_2'></td>
-    <td><input size="5" v-model='ldr_5_3'></td>
-    <td><input size="5" v-model='ldr_5_4'></td>
-    <td><input size="5" v-model='ldr_5_5'></td>
-  </tr>
-    <tr>
-    <td>得票</td>
-    <td></td>
-    <td>{{ldr_1}}</td>
-    <td>{{ldr_2}}</td>
-    <td>{{ldr_3}}</td>
-    <td>{{ldr_4}}</td>
-    <td>{{ldr_5}}</td>
-  </tr>
-  <tr>
-    <td>得pt</td>
-    <td></td>
-    <td>{{ldr_pt_1}}</td>
-    <td>{{ldr_pt_2}}</td>
-    <td>{{ldr_pt_3}}</td>
-    <td>{{ldr_pt_4}}</td>
-    <td>{{ldr_pt_5}}</td>
+  <tr v-for="character in characters" :key="character.id" >
+    <td>{{ character.name }}</td>
+    <td>{{ character.left_pt }}</td>
+    <td>{{ chr_votes.sum_mud[character.id]}}</td>
+    <td>{{ chr_votes.sum_ldr[character.id]}}</td>
+    <td>{{ chr_votes.sum_mud_pt[character.id]}}</td>
+    <td>{{ chr_votes.sum_ldr_pt[character.id]}}</td>
   </tr>
   </tbody>
 </table>
 
-<p></p>
+<h3> 行動順 </h3>
 
-<table id="odr_table">
+<table>
   <thead>
   <tr>
     <th>行動順</th>
@@ -448,171 +306,121 @@ function copyhidden(name){
   <tbody>
   <tr>
     <td>リーダー</td>
-    <td>{{chrs[0]}}</td>
+    <td>{{ chr_order[0].name }}</td>
   </tr>
   <tr>
     <td>2</td>
-    <td>{{chrs[1]}}</td>
+    <td>{{ chr_order[1].name }}</td>
   </tr>
   <tr>
     <td>3</td>
-    <td>{{chrs[2]}}</td>
+    <td>{{ chr_order[2].name }}</td>
   </tr>
   <tr>
     <td>4</td>
-    <td>{{chrs[3]}}</td>
+    <td>{{ chr_order[3].name }}</td>
   </tr>
   <tr>
     <td>犯人</td>
-    <td>{{chrs[4]}}</td>
+    <td>{{ chr_order[4].name }}</td>
   </tr>
   </tbody>
 </table>
 
+</div>
 
 <script>
-const pts_table = new Vue({
-  el: "#pts_table",
-  data: {
-  pts_1: 0, pts_2: 0, pts_3: 0, pts_4: 0, pts_5: 0,}
-})
 
-const mur_table = new Vue({
-  el: "#mur_table",
-  data: {
-  mur_1_1: 0, mur_1_2: 0, mur_1_3: 0, mur_1_4: 0, mur_1_5: 0, 
-  mur_2_1: 0, mur_2_2: 0, mur_2_3: 0, mur_2_4: 0, mur_2_5: 0, 
-  mur_3_1: 0, mur_3_2: 0, mur_3_3: 0, mur_3_4: 0, mur_3_5: 0, 
-  mur_4_1: 0, mur_4_2: 0, mur_4_3: 0, mur_4_4: 0, mur_4_5: 0, 
-  mur_5_1: 0, mur_5_2: 0, mur_5_3: 0, mur_5_4: 0, mur_5_5: 0, 
+function compare_list(a, b){
+  if (a.length !== b.length) {
+    console.log(a, b)
+    throw 'Array should be the same length!'
+  }
+  if (a.length === 0) return 0;
+  if (a[0] > b[0]) return 1;
+  if (a[0] < b[0]) return -1;
+
+  if (a.length === 1) return 0;
+  return compare_list(a.slice(1), b.slice(1))
+}
+
+let app = new Vue({
+  el: "#app",
+  data:{
+    characters : [
+      {id: 0, name: "シンフォニー" , ballot_cnt: 1, left_pt: 0, vote_mud: 0, vote_ldr: 0}, 
+      {id: 1, name: "セレナーデ"   , ballot_cnt: 1, left_pt: 0, vote_mud: 0, vote_ldr: 0}, 
+      {id: 2, name: "ララバイ"     , ballot_cnt: 1, left_pt: 0, vote_mud: 0, vote_ldr: 0}, 
+      {id: 3, name: "キャロル"     , ballot_cnt: 1, left_pt: 0, vote_mud: 0, vote_ldr: 0}, 
+      {id: 4, name: "カプリッチオ" , ballot_cnt: 1, left_pt: 0, vote_mud: 0, vote_ldr: 0}
+  ],
   },
   computed: {
-    mur_1: function(){return Number(this.mur_1_1) + Number(this.mur_2_1) + Number(this.mur_3_1) + Number(this.mur_4_1) + Number(this.mur_5_1)},
-    mur_2: function(){return Number(this.mur_1_2) + Number(this.mur_2_2) + Number(this.mur_3_2) + Number(this.mur_4_2) + Number(this.mur_5_2)},
-    mur_3: function(){return Number(this.mur_1_3) + Number(this.mur_2_3) + Number(this.mur_3_3) + Number(this.mur_4_3) + Number(this.mur_5_3)},
-    mur_4: function(){return Number(this.mur_1_4) + Number(this.mur_2_4) + Number(this.mur_3_4) + Number(this.mur_4_4) + Number(this.mur_5_4)},
-    mur_5: function(){return Number(this.mur_1_5) + Number(this.mur_2_5) + Number(this.mur_3_5) + Number(this.mur_4_5) + Number(this.mur_5_5)},
-    mur_pt_1: function(){return Number(this.mur_1_1*pts_table.pts_1) + Number(this.mur_2_1*pts_table.pts_2) + Number(this.mur_3_1*pts_table.pts_3) + Number(this.mur_4_1*pts_table.pts_4) + Number(this.mur_5_1*pts_table.pts_5)},
-    mur_pt_2: function(){return Number(this.mur_1_2*pts_table.pts_1) + Number(this.mur_2_2*pts_table.pts_2) + Number(this.mur_3_2*pts_table.pts_3) + Number(this.mur_4_2*pts_table.pts_4) + Number(this.mur_5_2*pts_table.pts_5)},
-    mur_pt_3: function(){return Number(this.mur_1_3*pts_table.pts_1) + Number(this.mur_2_3*pts_table.pts_2) + Number(this.mur_3_3*pts_table.pts_3) + Number(this.mur_4_3*pts_table.pts_4) + Number(this.mur_5_3*pts_table.pts_5)},
-    mur_pt_4: function(){return Number(this.mur_1_4*pts_table.pts_1) + Number(this.mur_2_4*pts_table.pts_2) + Number(this.mur_3_4*pts_table.pts_3) + Number(this.mur_4_4*pts_table.pts_4) + Number(this.mur_5_4*pts_table.pts_5)},
-    mur_pt_5: function(){return Number(this.mur_1_5*pts_table.pts_1) + Number(this.mur_2_5*pts_table.pts_2) + Number(this.mur_3_5*pts_table.pts_3) + Number(this.mur_4_5*pts_table.pts_4) + Number(this.mur_5_5*pts_table.pts_5)},
-    mur_own_1: function(){return Number(this.mur_1_1) + Number(this.mur_1_2) + Number(this.mur_1_3) + Number(this.mur_1_4) + Number(this.mur_1_5)},
-    mur_own_2: function(){return Number(this.mur_2_1) + Number(this.mur_2_2) + Number(this.mur_2_3) + Number(this.mur_2_4) + Number(this.mur_2_5)},
-    mur_own_3: function(){return Number(this.mur_3_1) + Number(this.mur_3_2) + Number(this.mur_3_3) + Number(this.mur_3_4) + Number(this.mur_3_5)},
-    mur_own_4: function(){return Number(this.mur_4_1) + Number(this.mur_4_2) + Number(this.mur_4_3) + Number(this.mur_4_4) + Number(this.mur_4_5)},
-    mur_own_5: function(){return Number(this.mur_5_1) + Number(this.mur_5_2) + Number(this.mur_5_3) + Number(this.mur_5_4) + Number(this.mur_5_5)
-    
-    }, 
+    chr_votes: function(){
+      let result = {
+        sum_mud: [0, 0, 0, 0, 0], // sum(vote_mud)
+        sum_ldr: [0, 0, 0, 0, 0], // sum(vote_ldr)
+        sum_mud_pt:[0, 0, 0, 0, 0], // sum(vote_mud*left_pt)
+        sum_ldr_pt: [0, 0, 0, 0, 0]  // sum(vote_ldr*left_pt)
+      }; 
+
+      for (character of this.characters) {
+        result.sum_mud[character.vote_mud] += character.ballot_cnt;
+        result.sum_ldr[character.vote_ldr] += character.ballot_cnt;
+        result.sum_mud_pt[character.vote_mud] += character.ballot_cnt * character.left_pt;
+        result.sum_ldr_pt[character.vote_ldr] += character.ballot_cnt * character.left_pt;
+      }
+      return result
+    },
+    mud_vote_order: function(){
+      var result = [];
+      for (character of this.characters){
+        var cid = character.id
+        var chr_votes = this.chr_votes
+        result.push([ // the better: be likely to be chosen
+          -chr_votes.sum_mud[cid],   // bigger the better
+          character.left_pt,         // smaller the better
+          -chr_votes.sum_mud_pt[cid],// bigger the better
+          cid,                       // smaller the better
+          0                          // murderer is the better
+        ]);
+      }
+      return result;
+    },
+    ldr_vote_order: function(){
+      var result = [];
+      for (character of this.characters){
+        var cid = character.id
+        var chr_votes = this.chr_votes
+        result.push([ // the better: be likely to be chosen
+          -chr_votes.sum_ldr[cid],    // bigger the better
+          -character.left_pt,         // bigger the better
+          -chr_votes.sum_ldr_pt[cid], // bigger the better
+          cid,                        // smaller the better
+          1                           // murderer is the better
+        ]); 
+      }
+      return result;
+    },
+    chr_order: function(){
+      var first_priority = this.mud_vote_order.concat(this.ldr_vote_order).sort(compare_list)
+      // console.log(first_priority)
+      first_priority = first_priority[0]
+      if (first_priority[4] === 0) {
+        var mud = this.characters[first_priority[3]];
+        var ldr = this.characters[
+          this.ldr_vote_order.filter(c => mud.id !== c[3]).sort(compare_list)[0][3]
+        ];
+      } else {
+        var ldr = this.characters[first_priority[3]];
+        var mud = this.characters[
+          this.mud_vote_order.filter(c => ldr.id !== c[3]).sort(compare_list)[0][3]
+        ];
+      }
+      var others = this.characters.filter(c => ![mud.id, ldr.id].includes(c.id))
+      others.sort((a, b) => -(a.left_pt - b.left_pt));
+      return [ldr].concat(others,[mud]) }
   }
 })
-
-const ldr_table = new Vue({
-  el: "#ldr_table",
-  data: {
-  ldr_1_1: 0, ldr_1_2: 0, ldr_1_3: 0, ldr_1_4: 0, ldr_1_5: 0,
-  ldr_2_1: 0, ldr_2_2: 0, ldr_2_3: 0, ldr_2_4: 0, ldr_2_5: 0,
-  ldr_3_1: 0, ldr_3_2: 0, ldr_3_3: 0, ldr_3_4: 0, ldr_3_5: 0,
-  ldr_4_1: 0, ldr_4_2: 0, ldr_4_3: 0, ldr_4_4: 0, ldr_4_5: 0,
-  ldr_5_1: 0, ldr_5_2: 0, ldr_5_3: 0, ldr_5_4: 0, ldr_5_5: 0,
-  },
-  computed: {
-    ldr_1: function(){return Number(this.ldr_1_1) + Number(this.ldr_2_1) + Number(this.ldr_3_1) + Number(this.ldr_4_1) + Number(this.ldr_5_1)},
-    ldr_2: function(){return Number(this.ldr_1_2) + Number(this.ldr_2_2) + Number(this.ldr_3_2) + Number(this.ldr_4_2) + Number(this.ldr_5_2)},
-    ldr_3: function(){return Number(this.ldr_1_3) + Number(this.ldr_2_3) + Number(this.ldr_3_3) + Number(this.ldr_4_3) + Number(this.ldr_5_3)},
-    ldr_4: function(){return Number(this.ldr_1_4) + Number(this.ldr_2_4) + Number(this.ldr_3_4) + Number(this.ldr_4_4) + Number(this.ldr_5_4)},
-    ldr_5: function(){return Number(this.ldr_1_5) + Number(this.ldr_2_5) + Number(this.ldr_3_5) + Number(this.ldr_4_5) + Number(this.ldr_5_5)},
-    ldr_pt_1: function(){return Number(this.ldr_1_1*pts_table.pts_1) + Number(this.ldr_2_1*pts_table.pts_2) + Number(this.ldr_3_1*pts_table.pts_3) + Number(this.ldr_4_1*pts_table.pts_4) + Number(this.ldr_5_1*pts_table.pts_5)},
-    ldr_pt_2: function(){return Number(this.ldr_1_2*pts_table.pts_1) + Number(this.ldr_2_2*pts_table.pts_2) + Number(this.ldr_3_2*pts_table.pts_3) + Number(this.ldr_4_2*pts_table.pts_4) + Number(this.ldr_5_2*pts_table.pts_5)},
-    ldr_pt_3: function(){return Number(this.ldr_1_3*pts_table.pts_1) + Number(this.ldr_2_3*pts_table.pts_2) + Number(this.ldr_3_3*pts_table.pts_3) + Number(this.ldr_4_3*pts_table.pts_4) + Number(this.ldr_5_3*pts_table.pts_5)},
-    ldr_pt_4: function(){return Number(this.ldr_1_4*pts_table.pts_1) + Number(this.ldr_2_4*pts_table.pts_2) + Number(this.ldr_3_4*pts_table.pts_3) + Number(this.ldr_4_4*pts_table.pts_4) + Number(this.ldr_5_4*pts_table.pts_5)},
-    ldr_pt_5: function(){return Number(this.ldr_1_5*pts_table.pts_1) + Number(this.ldr_2_5*pts_table.pts_2) + Number(this.ldr_3_5*pts_table.pts_3) + Number(this.ldr_4_5*pts_table.pts_4) + Number(this.ldr_5_5*pts_table.pts_5)},
-    ldr_own_1: function(){return Number(this.ldr_1_1) + Number(this.ldr_1_2) + Number(this.ldr_1_3) + Number(this.ldr_1_4) + Number(this.ldr_1_5)},
-    ldr_own_2: function(){return Number(this.ldr_2_1) + Number(this.ldr_2_2) + Number(this.ldr_2_3) + Number(this.ldr_2_4) + Number(this.ldr_2_5)},
-    ldr_own_3: function(){return Number(this.ldr_3_1) + Number(this.ldr_3_2) + Number(this.ldr_3_3) + Number(this.ldr_3_4) + Number(this.ldr_3_5)},
-    ldr_own_4: function(){return Number(this.ldr_4_1) + Number(this.ldr_4_2) + Number(this.ldr_4_3) + Number(this.ldr_4_4) + Number(this.ldr_4_5)},
-    ldr_own_5: function(){return Number(this.ldr_5_1) + Number(this.ldr_5_2) + Number(this.ldr_5_3) + Number(this.ldr_5_4) + Number(this.ldr_5_5)}, 
-  }
-})
-
-function pick_maxs(chr_votes){
-  var result = [];
-  var max_vote = Math.max.apply(null, chr_votes)
-  for (let i = 0; i < chr_votes.length; i++){
-     if (chr_votes[i] == max_vote) result.push(i);
-  }
-  return [max_vote, result]
-}
-
-var chr_name = {
-  1: "シンフォニー",
-  2: "セレナーデ",
-  3: "ララバイ",
-  4: "キャロル",
-  5: "カプリッチオ", 
-  }
-
-function val_chr(a){
-  return a[0]*10000 + a[1]*1000 - a[2] * 100 - a[3]*10 + a[4]
-}
-
-function sort_chr(a, b){
-  return val_chr(b)-val_chr(a)
-}
-
-function sort_dict_keys(dict){
-  var array = Object.keys(dict).map((k)=>({ key: k, value: dict[k] }));
-
-  array.sort((a, b) => b.value - a.value);
-
-return array.map(k=>k.key)
-}
-
-function calc_order(){
-  var mur_chr = "";
-  var ldr_chr = "";
-  var mur_order = [
-    [+mur_table.mur_1, -pts_table.pts_1, +mur_table.mur_pt_1, 1, 0],
-    [+mur_table.mur_2, -pts_table.pts_2, +mur_table.mur_pt_2, 2, 0],
-    [+mur_table.mur_3, -pts_table.pts_3, +mur_table.mur_pt_3, 3, 0],
-    [+mur_table.mur_4, -pts_table.pts_4, +mur_table.mur_pt_4, 4, 0],
-    [+mur_table.mur_5, -pts_table.pts_5, +mur_table.mur_pt_5, 5, 0],
-  ];
-  var ldr_order = [
-    [+ldr_table.ldr_1, +pts_table.pts_1, +ldr_table.ldr_pt_1, 1, 1],
-    [+ldr_table.ldr_2, +pts_table.pts_2, +ldr_table.ldr_pt_2, 2, 1],
-    [+ldr_table.ldr_3, +pts_table.pts_3, +ldr_table.ldr_pt_3, 3, 1],
-    [+ldr_table.ldr_4, +pts_table.pts_4, +ldr_table.ldr_pt_4, 4, 1],
-    [+ldr_table.ldr_5, +pts_table.pts_5, +ldr_table.ldr_pt_5, 5, 1],
-  ];
-  var sorted_ = mur_order.concat(ldr_order).sort(sort_chr)
-  var first_ele = sorted_[0]
-  if (first_ele[3] == 0){
-    mur_chr = first_ele[3];
-    ldr_order.splice(mur_chr-1, 1)
-    ldr_chr = ldr_order.sort(sort_chr)[0][3];
-  }else{
-    ldr_chr = first_ele[3];
-    mur_order.splice(ldr_chr-1, 1)
-    mur_chr = mur_order.sort(sort_chr)[0][3];
-  }
-  var other_chr = {1: pts_table.pts_1, 2: pts_table.pts_2, 3: pts_table.pts_3, 4: pts_table.pts_4, 5: pts_table.pts_5};
-  delete other_chr[mur_chr]
-  delete other_chr[ldr_chr]
-  var other_chr_sorted_arr = sort_dict_keys(other_chr).map(k=>chr_name[k])
-  
-  
-
-
-  return [chr_name[ldr_chr]].concat(other_chr_sorted_arr).concat([chr_name[mur_chr]])
-}
-
-const odr_table = new Vue({
-  el: "#odr_table",
-  computed: {
-    chrs: calc_order
-  },
-})
-
 
 </script>
