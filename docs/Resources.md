@@ -39,7 +39,7 @@
 - [フーガのスマートフォン](resources/HandOuts/4_Other_Additional/Fuga_Smartphone.pdf) [txt](resources/HandOuts/4_Other_Additional/Fuga_Smartphone.txt)
 - [クトゥルフの星の落とし子](resources/HandOuts/4_Other_Additional/StarSpawnOfCthulhu.pdf) [txt](resources/HandOuts/4_Other_Additional/StarSpawnOfCthulhu.txt)
 - [石板](resources/HandOuts/4_Other_Additional/TheStele.pdf) [txt](resources/HandOuts/4_Other_Additional/TheStele.txt)
-- [ハスター招来・解放の歌](resources/Audio/Coventry_Carol_iaia.mp3)
+- [ハスター招来・解放の歌](resources/Audio/Coventry_Carol_iaia.mp3): [NEUTRINO](https://n3utrino.work/)の謡子さんに歌っていただきました。
 
 ## プレイマット
 ココフォリア、ユドナリウムの両方に、練習用と本番用を作成しました。
