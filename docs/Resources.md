@@ -44,10 +44,10 @@
 ## プレイマット
 ココフォリア、ユドナリウムの両方に、練習用と本番用を作成しました。
 
-- [ココフォリア練習用](https://drive.google.com/file/d/1_0tN4X40vIDgq0La5CvelRg_KN_HBTqi/view?usp=sharing)
-- [ココフォリア本番用](https://drive.google.com/file/d/1kPxyhMw3spRK8CCU7UHVhuzC22xXapQ4/view?usp=sharing)
-- [ユドナリウム練習用](https://drive.google.com/file/d/1zI27TB5o9nv9CEYG5iRBaXjfuBP41187/view?usp=sharing)
-- [ユドナリウム本番用](https://drive.google.com/file/d/1PxuEJeUerU0WIsvnjtXPzZhGbu9ELX_E/view?usp=sharing)
+- [ココフォリア練習用](https://drive.google.com/file/d/1S7s6l9p6TWkl_tP0ugp6ZICPuw4VmAi1/view?usp=sharing)
+- [ココフォリア本番用](https://drive.google.com/file/d/12eK86-F7dEto3tMvmR_KTkMWKJt8zSLb/view?usp=sharing)
+- [ユドナリウム練習用](https://drive.google.com/file/d/1bcFbPqDETO440ykwcoIWLw6G6X4HlQVe/view?usp=sharing)
+- [ユドナリウム本番用](https://drive.google.com/file/d/1zI27TB5o9nv9CEYG5iRBaXjfuBP41187/view?usp=sharing)
 
 ## 外部素材
 BGMなど、作成者が使用した素材へのリンクです。各素材の利用規約は各ホームページでご確認ください。
