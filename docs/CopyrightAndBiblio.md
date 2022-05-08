@@ -69,7 +69,10 @@ Pesky Phoeniciansは英字フォントですが、象形文字のような書き
 MITライセンスで開発されているため、商用利用可能です。
 
 ### [Blender](https://blender.org)
-泣く子も黙る、Blender。3DCGツールですが、ロゴやカードのデザインに使っています。
+泣く子も黙る、Blender。3DCGツールですが、ロゴやカードのデザインに使っています。また、ハスター降臨のスチルもこれで作りました。
+
+### [DataCheft](https://tech-lagoon.com/imagechef/index.html)
+ハスター降臨のスチルをBlenderで作った後、こちらの色鉛筆スケッチ風、で加工しました。いい味がでて満足です。利用規約とにらめっこしつつ、現時点ではこちらのスチルもCC0として扱います。
 
 ## 参考文献
 - [「ハスター神話」に関する覚書](http://www7a.biglobe.ne.jp/~byakhee/essay/hastur.html)
