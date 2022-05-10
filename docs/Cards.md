@@ -2,16 +2,16 @@
 
 ## シンフォニー
 ### 昨夜の記録 紫煙
-<img src="../resources/Cards/Symphony_1_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Symphony_1_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Symphony_1_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Symphony_1_front.webp" width="40%" height="40%">
 
 この時間帯の前後はカプリッチオと一緒にいる時間が長いため、かなり長期間の白証明が獲得できるカードです。また、「トーラス」はセレナーデが追加情報を得る鍵です。かつてはフーガのスマートフォンを開くためのロックコードも担当していました。
 
 獅子座は犯人役のカードであるヘラクレスと争ったことから、犯人役に選ばれないために戦うことの寓喩です。
 
 ### 持ち物A 灰皿
-<img src="../resources/Cards/Symphony_2_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Symphony_2_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Symphony_2_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Symphony_2_front.webp" width="40%" height="40%">
 
 シンフォニーはバーで受け取った指令書を焼却処分しようとしましたが、うっかりさんなので、燃え尽きてはいません。うっかりなので、HOには「タバコ用品」とだけ記載していますが、「燃え残ってんな」と気が付く勘のよいPLも多いです。まさかここまでやべー燃え残りがあるとは思わなかったでしょうが……。
 
@@ -22,16 +22,16 @@
 金属製のペライやつをイメージしていたのですが、過去に「大理石の殺傷能力が高いやつ」と解釈してぶん回したPLがいました。面白かったので採用しました。
 
 ### 持ち物B サイレンサー付き拳銃
-<img src="../resources/Cards/Symphony_3_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Symphony_3_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Symphony_3_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Symphony_3_front.webp" width="40%" height="40%">
 
 フーガを殺したメイン武器です。GM裁量ですが、作者卓では無限発撃てます。
 
 フーガをオリオンとみなして星座を決めたカードの一枚です。オリオンはさそりによって海に追いやられた後、アルテミスによって矢で射抜かれたという伝説があります。
 
 ### 切り札 指紋鑑定キット
-<img src="../resources/Cards/Symphony_4_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Symphony_4_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Symphony_4_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Symphony_4_front.webp" width="40%" height="40%">
 
 [指紋鑑定の追加情報](../AdditionalInfos/index.html#_3)を参照してください。ほかの切り札同様、強力なカードです。
 
@@ -42,22 +42,22 @@
 ## セレナーデ
 
 ### 昨夜の記録 夢
-<img src="../resources/Cards/Serenade_1_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Serenade_1_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Serenade_1_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Serenade_1_front.webp" width="40%" height="40%">
 
 トップレベルで好きなカード。セレナーデが「目を覚ますと泣いていた」理由です。射手座はアリアの星座。
 
 ### 持ち物A メモ
-<img src="../resources/Cards/Serenade_2_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Serenade_2_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Serenade_2_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Serenade_2_front.webp" width="40%" height="40%">
 
 アリアが自分の死を予期してセレナーデに渡していたメモです。リスク分散のためパソコンとスマホに遺言を残していましたが、スマホはララバイが持ち去り、パソコンは（暗号解読したのちに）当局が隠蔽していました。
 
 琴座はこのメモの内容が音楽関係である、という所からとっています。
 
 ### 持ち物B ナイフ
-<img src="../resources/Cards/Serenade_3_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Serenade_3_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Serenade_3_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Serenade_3_front.webp" width="40%" height="40%">
 
 因縁の多いナイフです。もともとはララバイのナイフで、アリアを刺すときに使われました。その後、「形見」としてセレナーデに渡され、フーガの死体を刺すのにも使われました。
 
@@ -67,8 +67,8 @@
 
 
 ### 切り札　腕時計
-<img src="../resources/Cards/Serenade_4_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Serenade_4_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Serenade_4_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Serenade_4_front.webp" width="40%" height="40%">
 
 盤面上の最強カードです。アリアがくれたお守り。破壊されない限り、黄色の印に対しても、ハスターの招来・解放に対しても耐性があります。セレナーデのHOにもカードにも記載はありませんが、パッシブにセレナーデを守ってくれます。
 
@@ -81,16 +81,16 @@
 ## ララバイ
 
 ### 昨夜の記録 酒盛り
-<img src="../resources/Cards/Lullaby_1_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Lullaby_1_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Lullaby_1_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Lullaby_1_front.webp" width="40%" height="40%">
 
 セレナーデ、ララバイの白証明です。ここに蜂蜜酒、と書かれることでララバイはキャロル/カプリッチオから熱いまなざしを受ける羽目になります。
 
 星座の由来が一番わかりやすいカードです。
 
 ### 持ち物A 変装道具
-<img src="../resources/Cards/Lullaby_2_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Lullaby_2_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Lullaby_2_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Lullaby_2_front.webp" width="40%" height="40%">
 
 もともとはララバイの持ち物で、アリアに会いに行くときもカプリッチオに扮していました。その後、実行部隊の倉庫に保管されていましたが、セレナーデが持ち出していました。一隊員ではフーガの部屋に行くのが難しかったためフーガに変装してフーガの部屋へ行きましたが、その頃にはすでにフーガは死んでいました。ララバイの持ち物になっているのは、脱出用通路を介してララバイの部屋に着いた時に置いていったからです。
 
@@ -99,8 +99,8 @@
 「変身物語」ではアルテミスの従者カリストーが、子を身ごもったことでアルテミスの勘気に触れて大熊と変えられ、成長した息子アルカスに再会した際に殺されてしまうまでが描かれています。
 
 ### 持ち物B 起爆スイッチ
-<img src="../resources/Cards/Lullaby_3_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Lullaby_3_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Lullaby_3_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Lullaby_3_front.webp" width="40%" height="40%">
 
 ハスターを招来する上で欠かせない「モノリス」の一角を担うのが、ファロス灯台にある巨岩です。ロンド殺害を知ったフーガは切り札として取っておいたモノリス破壊を企てますが、その先に待っていたのは当局とシンフォニーによる暗殺でした。
 
@@ -111,8 +111,8 @@
 鷲座は、ゼウスの雷を運ぶ役割を持つとされています。爆発の伝令を飛ばす、という共通点からの採用です。
 
 ### 切り札 目星
-<img src="../resources/Cards/Lullaby_4_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Lullaby_4_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Lullaby_4_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Lullaby_4_front.webp" width="40%" height="40%">
 
 クトゥルフ神話TRPGの調査で頻用される技能「目星」にあやかりました。ララバイはどっち陣営にも着きうるキャラクターですので、「全体公開することで調査ポイント+3pt」みたいな改変があっても面白いかもしれません。
 
@@ -121,21 +121,21 @@
 ## キャロル
 
 ### 昨夜の記録 星見
-<img src="../resources/Cards/Carol_1_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Carol_1_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Carol_1_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Carol_1_front.webp" width="40%" height="40%">
 
 キャロルが隠れ家に戻った後で誰とも一緒にいなかった時間を埋めるアリバイ、そして去年の同時期、故郷（カラクサウラ市）にいたため、アリア殺しに関与できなかったというアリバイです。……キャロルがどちらの事件にも興味がなさ過ぎてあまり言及されません。
 
 星座の蟹座（Cancer）はフーガのスマートフォンを開く重要な鍵です。この蟹座はかつてスカラベであったとされているのですが、[最近の研究](https://www.sciencedirect.com/science/article/pii/S0960982212015072)によると、スカラベは天の川を道しるべにしているそうです。星をたどって歩んできたキャロルに重ねて採用しました。
 
 ### 持ち物A フーガのスマートフォン
-<img src="../resources/Cards/Carol_2_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Carol_2_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Carol_2_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Carol_2_front.webp" width="40%" height="40%">
 
 陰謀の詳細、モノリスの正体に迫る重要なカードですが、[謎解き](../AnswersHints/index.html#_13)を突破する必要があります。
 
 初版では、カード調査の方法が
-<img src="../resources/Cards/CardSamples/Old/card_sample_2.png" width="20%" height="20%">
+<img src="../resources/Cards/CardSamples/Old/compress/card_sample_2.webp" width="20%" height="20%">
 のように、カードの裏面の星に調査ポイントを乗せる形式でした。ココフォリアの仕様では、（マス目にスナップするため）星を乗せられる箇所が4x4のマス目上のどこかに限られていました。
 
 初代のパスコードもこの仕様を利用していました。パターンロック（4x4の点を線でつなげるやつ）を解除するには、獅子座の星座線をなぞる必要がある、という難易度の高いものでしたが、カード調査の仕様変更とバランス調整に伴って廃止されました。
@@ -143,8 +143,8 @@
 フーガをオリオンとみなして星座を決めたカードの一枚です。仔犬座はオリオンの飼い犬とされていました。
 
 ### 持ち物B 謎の印
-<img src="../resources/Cards/Carol_3_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Carol_3_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Carol_3_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Carol_3_front.webp" width="40%" height="40%">
 
 黄色の印です。黄色の印を誰かが踏むと観戦チャットが盛り上がります。細かい判定は[追加情報の管理](../AdditionalInfos/index.html#_6)にある通りです。基本的にはセレナーデ以外の3人に渡ります。（セレナーデに渡った場合、基本的に効果はないし、セレナーデは譲渡可能なので誰かに渡す可能性がある）
 
@@ -157,8 +157,8 @@
 祭壇座は、宗教っぽいしなー、くらいのノリでつけています。
 
 ### 切り札 検視結果
-<img src="../resources/Cards/Carol_4_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Carol_4_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Carol_4_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Carol_4_front.webp" width="40%" height="40%">
 
 反ハスター陣営仲違いカードです。これにより、フーガ殺しもアリア殺しも詰めやすくなるので、残りの4人で仲良くすることは難しいのです。
 
@@ -173,24 +173,24 @@
 ## カプリッチオ
 
 ### 昨夜の記録 談話
-<img src="../resources/Cards/Capriccio_1_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Capriccio_1_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Capriccio_1_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Capriccio_1_front.webp" width="40%" height="40%">
 
 γ国訛りという記載は、（主にシンフォニーに）カプリッチオがγ国のスパイなんじゃないか、と疑わせるための<s>いやがらせ</s>ミスリードです。
 
 もともとは「1階から2階、2解から3階へ上るには階段を使うしかない。01:00~04:00の間、カプリッチオは常に経路上を監視できるようにしていた。」と記載されたカードであり、フェアであることを保証する、というニュアンスで天秤座にしました。バランス調整によりカード記述は変わりましたが星座はそのままにしてあります。「γ」が天秤ににているから、みたいなこじつけ後付けも一応あります。
 
 ### 持ち物A 鍵
-<img src="../resources/Cards/Capriccio_2_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Capriccio_2_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Capriccio_2_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Capriccio_2_front.webp" width="40%" height="40%">
 
 石板へと通じるカードです。石板をめぐって流された血を思うと、非常に重みのあるカードです。
 
 金庫は山羊座なのですが、馭者座はやぎを抱いた姿で描かれています。金庫を守る鍵、というニュアンスです。
 
 ### 持ち物B 手錠
-<img src="../resources/Cards/Capriccio_3_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Capriccio_3_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Capriccio_3_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Capriccio_3_front.webp" width="40%" height="40%">
 
 実装タイミングとして最も新しいカードです。もともとはフーガのメモ帳があった場所ですが、バランス調整のため、エンディングで使えるアイテムに変更しました。とはいえ所詮手錠なので、あまり強くはありません。
 
@@ -199,8 +199,8 @@
 ケフェウス、は聞きなれない人名ですが、エチオピア王にしてアンドロメダの父親とされています。英雄ペルセウスに助けられたとき、アンドロメダは海の生贄として岩場へ拘束されていました。そのシーンを描いた絵画を見ると、アンドロメダは手錠と鎖で拘束されていることから、このカードに採用しました。
 
 ### 切り札 ロンドの研究ノート
-<img src="../resources/Cards/Capriccio_4_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Capriccio_4_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Capriccio_4_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Capriccio_4_front.webp" width="40%" height="40%">
 
 切るタイミングが一番難しく、重要なカードです。鍵を信頼できる相手に渡し、即座に公開するのが一番強いですが、疑心暗鬼+キャロルがどこまで知っているか分からない状態ではなかなか踏ん切りがつきません。
 
@@ -209,8 +209,8 @@
 ## フーガの部屋
 
 ### 遺留品A フーガの死体
-<img src="../resources/Cards/Fuga_1_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Fuga_1_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Fuga_1_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Fuga_1_front.webp" width="40%" height="40%">
 
 チュートリアルで調べられたり、パス回しされたりするカードです。この血は手書きなんですが、描くのは結構楽しかったです。ラスタで描いた後、オンラインのサイトでベクタに変換したのですが、なぜか細かい飛沫が複数個消えました……。
 
@@ -219,8 +219,8 @@
 オリオン座は日本でもトップレベルで有名な星で、自分を殺した蠍座を恐れて冬にしか上ってこない、三ツ星を頼りに探せる、といった話を聞いたことがあるんじゃないでしょうか？　少なくとも作者が星空で同定できる星座はオリオン座だけです。ポセイドンの子、英雄オリオンは強大な力を持っていましたがそれを誇ったために殺されてしまいました。政府から徹底して潜むことを選んだフーガと真反対とも言えますが、上の勝手な都合のために殺された英雄に重ねてオリオンを当てました。「サイレンサー付き拳銃」「ナイフ」「フーガのスマートフォン」の星座はオリオンとの関連で選んでいます。
 
 ### 遺留品B 脱出用通路
-<img src="../resources/Cards/Fuga_2_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Fuga_2_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Fuga_2_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Fuga_2_front.webp" width="40%" height="40%">
 
 隠れ家の見取り図を作ったのは、この脱出用通路を入れたかったからです。この脱出用通路は
 
@@ -235,8 +235,8 @@
 白鳥座は天の川に両翼を広げたような形をしています。中国の星座では天の川をつなぐ橋、とみなされていることから、脱出用通路の星座として選ばれました。
 
 ### 遺留品C アリアのスマートフォン
-<img src="../resources/Cards/Fuga_3_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Fuga_3_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Fuga_3_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Fuga_3_front.webp" width="40%" height="40%">
 
 アリアが遺書を収めたスマートフォンです。bwv1068と入力すると、クソ長いHOが渡されます。各フェーズ間に5分の休憩があるのも半分はこいつのせいです。どのHOにも力を入れていますが、セレナーデ宛てのメモは泣かせるつもりで書きました。逆に、「警察の方へ」のメモは原案の時点でほぼ完成しており、アリアの人物像を形成したHOです。
 
@@ -245,32 +245,32 @@
 古代ギリシャのアリオンは海賊にさらわれ死を迫られました。アリオンが「最期に歌を歌わせてほしい」と海賊たちに請い、キタラ（琴）を片手にアポロンを讃える歌を歌うと、海中からイルカが現れ、アリオンは彼らの背に乗って逃げ延びました。琴座（メモ）によって道が開ける、という意味でいるか座を当てました。
 
 ### 遺留品D 金庫
-<img src="../resources/Cards/Fuga_4_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Fuga_4_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Fuga_4_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Fuga_4_front.webp" width="40%" height="40%">
 
 中に石板が入っており、ココフォリアの場合、このカードを消すことで石板が出現します。（所有権周りを考えると、カプリッチオの持ち物A「鍵」の下を削除した方がやりやすいかもしれません。いずれのカードの下にもカードを置いてあるのでGMのご自由にしてください）
 
 山羊座を選んだのはシュブ=ニグラスからの連想です。シュブ=ニグラスは黒山羊と呼ばれており、ハスターの母とも妻ともいわれる関連の深い神格です。ハスターを讃える呪文にも時折登場します。
 
 ### 遺留品D 石板
-<img src="../resources/Cards/Fuga_4_back.png" width="40%" height="40%">
-<img src="../resources/Cards/TheStele_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Fuga_4_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/TheStele_front.webp" width="40%" height="40%">
 
 「星陰りて、謀り響く」の中心的なアイテムです。
 
 「フーガがなぜぶっ壊さなかったのか」という質問対策に「破壊不能」属性をつけました。イメージとしては魅入られて壊せない、的な。魅入られて、って便利な言葉ですよね……。
 
 ### 遺留品E フーガのメモ帳
-<img src="../resources/Cards/Fuga_5_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Fuga_5_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Fuga_5_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Fuga_5_front.webp" width="40%" height="40%">
 
 クトゥルフの星の落とし子を呼ぶため、フーガが用意した魔法陣です。魔法陣を自作する元気はありませんでした。
 
 フーガはクトゥルフの力を借りるにあたって、当初ロンドを頼ろうとしました。しかし民俗学の観点から反対され、フーガはロンドに隠れてクトゥルフの星の落とし子との接触の研究を進めました。仔馬座はケイローン（=ロンド）から隠れて育てられたケイローンの娘ヒッぺとも言われています。
 
 ### 遺留品F 新聞紙
-<img src="../resources/Cards/Fuga_6_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Fuga_6_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Fuga_6_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Fuga_6_front.webp" width="40%" height="40%">
 
 フーガはアリアの死を夏音メンバーに隠すため、報道を「洗脳コードが埋め込まれている」と規制しました。実際、共通ハンドアウト冒頭に挙げられている「陰謀論」のうち、この陰謀論だけはアリアのスマホに記述がありません。
 
@@ -279,48 +279,48 @@
 ## 新聞紙
 
 ### 197年4月12日 超高層ビル完成
-<img src="../resources/Cards/Newspaper_4_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Newspaper_4_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Newspaper_4_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Newspaper_4_front.webp" width="40%" height="40%">
 
 サリヤが経済推進都市と記載のある唯一の箇所です。最後の超高層ビル建造が完成した冬が訪れる前にフーガは石板を盗み出し、儀式を阻止したのです。事実、政府はその冬、ロンドが提出した石板の解析レポートをもとに儀式を実行しましたが、（石板がなく、音程も不正確だったため）失敗しています。
 
 蛇座にした理由は覚えていません。たしか、「ヤマタノオロチを超高層ビルに見立てて～」みたいな論理だったと思います。だいぶこじつけに無理があります。
 
 ### 200年7月12日 ファロス灯台の歴史
-<img src="../resources/Cards/Newspaper_5_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Newspaper_5_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Newspaper_5_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Newspaper_5_front.webp" width="40%" height="40%">
 
 ファロス灯台近海の難所であり、かつてはこの巨岩の上に篝火をおいて灯台として運用していたとかなんとか。右端にはフーガが「Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn」と書いています。どこかで見つけた呪文をメモったんでしょうか？
 
 クトゥルフ神話関係で個人的に好きな説があって、それが「九頭竜」を「クトゥルー」と同一視するものです。だからって、龍座はクトゥルフと関係するよねーっていうのも無理があると思うのですが、皆さんはどう思いますか？
 
 ### 199年8月2日 周辺諸国との緊張
-<img src="../resources/Cards/Newspaper_1_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Newspaper_1_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Newspaper_1_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Newspaper_1_front.webp" width="40%" height="40%">
 
 χ国政府が野心を持っていることを示すカードです。また、スパイがいることを示唆することで、シンフォニーがカプリッチオをスパイだと疑うようご誘導しています。
 
 海蛇座、英名ヒュドラは英雄ヘラクレスと争った怪物の一体です。ヘラクレス=犯人カード=シンフォニーがスパイと関係が深いために採用したカードです。
 
 ### 198年10月17日 コラム:「冬族の歴史」
-<img src="../resources/Cards/Newspaper_6_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Newspaper_6_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Newspaper_6_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Newspaper_6_front.webp" width="40%" height="40%">
 
 ララバイの出自に関連するカードです。情報として大した意味はなく、ただ単に「こういう側面があると知ってほしかった」というカードです。ちなみに、本作の登場人物の大半は秋族の血筋ですが、ララバイが冬族、ロンドとキャロルは夏族、カプリッチオはγ国生まれでいずれでもありません。
 
 うさぎ座はドデカネス諸島のレロス島で起きた、愚かな事件の戒めとして星座になりました。差別も過去の愚かな行為として戒められるといいのですが……。
 
 ### 190年12月1日 大規模宗教抗争か
-<img src="../resources/Cards/Newspaper_2_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Newspaper_2_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Newspaper_2_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Newspaper_2_front.webp" width="40%" height="40%">
 
 キャロルの過去に関するカードです。黄色の印の親子団は当局によって襲撃されたのですが、刃物で死因を偽装した上に、クトゥルフを信仰していた「ハイドラ教団」を滅ぼす口実として使いました。
 
 星図上、ケンタウルスに刺される狼、として描かれているのがこの星座です。この盤面におけるケンタウルスはロンドを指し、「ロンドが政府に密告したことで黄色の印の親子団が襲撃された」と仄めかしています。
 
 ### 201年12月2日 図書館員自殺
-<img src="../resources/Cards/Newspaper_3_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Newspaper_3_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Newspaper_3_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Newspaper_3_front.webp" width="40%" height="40%">
 
 アオイが死んだ事件のニュースです。カプリッチオの運がものすごく悪いと、このカードを見るまでアリアの死を知らない、なんていう展開もあったりします。この事件が自殺として処理された理由は、アリアがパソコンに残した遺書にあります。bwv1068という暗号を解いた当局は、遺書の隠蔽を謀ります。他殺に比べて自殺は報道の規模も、向けられる目も桁違いで、アリアの命を賭けた勝負も不発に終わります。
 
@@ -328,22 +328,22 @@
 
 ## その他
 ### リーダー投票 リーダー権限
-<img src="../resources/Cards/Vote_Leader_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Vote_Leader_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Vote_Leader_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Vote_Leader_front.webp" width="40%" height="40%">
 
 重要なんですが特に書くことのないカードです。星座の由来もまんまだし。
 
 ### 犯人投票 
-<img src="../resources/Cards/Vote_Murderer_back.png" width="40%" height="40%">
-<img src="../resources/Cards/Vote_Murderer_front.png" width="40%" height="40%">
+<img src="../resources/Cards/compress/Vote_Murderer_back.webp" width="40%" height="40%">
+<img src="../resources/Cards/compress/Vote_Murderer_front.webp" width="40%" height="40%">
 
 猿ぐつわがされている、というのがミソで、キャロルが呪文詠唱できなくなります。それと作者卓では指を咥えてのRPを伝統的にお願いしています。
 
 ヘラクレス座、としての呼称の方が有名でしょうが、犯人役っぽいのでこちらの名前を採用しました。ヘラクレスは数多の英雄の中でも抜きんでた功績を残したNo.1英雄のような存在です。
 
 ### エンドカード 
-<img src="../resources/EndCards/PC1_Symphony_Before.png" width="40%" height="40%">
-<img src="../resources/EndCards/PC1_Symphony_After.png" width="40%" height="40%">
+<img src="../resources/EndCards/compress/PC1_Symphony_Before.webp" width="40%" height="40%">
+<img src="../resources/EndCards/compress/PC1_Symphony_After.webp" width="40%" height="40%">
 
 ルールも情報もややこしいこのゲームを通過したプレイヤーには「通過しました」よりも「証明書」の方が相応しいと思いました。
 
