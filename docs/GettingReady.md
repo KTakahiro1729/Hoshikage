@@ -51,7 +51,9 @@
 
 #### [平面化ユドナリウム](https://udonarium2d.netlify.app/)
 
-調査ポイントのマーカーが 2D であるため、[ユドナリウム](https://udonarium.app/)よりも[平面化ユドナリウム](https://udonarium2d.netlify.app/)を推奨します。いずれも[zip ファイル](https://drive.google.com/file/d/1zI27TB5o9nv9CEYG5iRBaXjfuBP41187/view?usp=sharing)を読み込んでください。
+調査ポイントのマーカーが 2D であるため、[ユドナリウム](https://udonarium.app/)よりも[平面化ユドナリウム](https://udonarium2d.netlify.app/)を推奨します。いずれも[zip ファイル](https://drive.google.com/file/d/1H-bVEGgcxpK26j6QSnU_WIKiJYJLCfS3/view?usp=sharing)を読み込んでください。
+
+([2022/06/06 以前に HO 配布した方はこちらから](https://drive.google.com/file/d/1zI27TB5o9nv9CEYG5iRBaXjfuBP41187/view?usp=sharing))
 
 ## 理解度の確認
 
