@@ -35,6 +35,7 @@
 ### 追加ハンドアウト（黄色の印）
 
 - [シンフォニー](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC1_Symphony.pdf) [txt](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC1_Symphony.txt)
+- [セレナーデ（エンディング以外）](resources/HandOuts/3_Yellow_Sign/Mysterious_Sign_PC2_Serenade.pdf) [txt](resources/HandOuts/3_Yellow_Sign/Mysterious_Sign_PC2_Serenade.txt)
 - [セレナーデ](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC2_Serenade.pdf) [txt](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC2_Serenade.txt)
 - [ララバイ](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC3_Lullaby.pdf) [txt](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC3_Lullaby.txt)
 - [カプリッチオ](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC5_Capriccio.pdf) [txt](resources/HandOuts/3_Yellow_Sign/Yellow_Sign_PC5_Capriccio.txt)
@@ -53,9 +54,9 @@
 ココフォリア、ユドナリウムの両方に、練習用と本番用を作成しました。
 
 - [ココフォリア練習用](https://drive.google.com/file/d/1S7s6l9p6TWkl_tP0ugp6ZICPuw4VmAi1/view?usp=sharing)
-- [ココフォリア本番用](https://drive.google.com/file/d/1uJZJoy3PR51o5eQZbpEa3qHApo31cWFB/view?usp=sharing)
+- [ココフォリア本番用](https://drive.google.com/file/d/1ht-q6eJYW2yCYCYeMMwq5Vpaf583jRqu/view?usp=sharing)
 - [ユドナリウム練習用](https://drive.google.com/file/d/1bcFbPqDETO440ykwcoIWLw6G6X4HlQVe/view?usp=sharing)
-- [ユドナリウム本番用](https://drive.google.com/file/d/1zI27TB5o9nv9CEYG5iRBaXjfuBP41187/view?usp=sharing)
+- [ユドナリウム本番用](https://drive.google.com/file/d/1gf1DOMvXIcTryzgW3pAXnVdI70WeAsbS/view?usp=sharing)
 
 ## 外部素材
 
