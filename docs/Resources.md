@@ -54,9 +54,9 @@
 ココフォリア、ユドナリウムの両方に、練習用と本番用を作成しました。
 
 - [ココフォリア練習用](https://drive.google.com/file/d/1S7s6l9p6TWkl_tP0ugp6ZICPuw4VmAi1/view?usp=sharing)
-- [ココフォリア本番用](https://drive.google.com/file/d/1ht-q6eJYW2yCYCYeMMwq5Vpaf583jRqu/view?usp=sharing)
+- [ココフォリア本番用](https://drive.google.com/file/d/1KcO9Lf7tGSiuluJLotY_njgIZBHlIgXu/view?usp=sharing)
 - [ユドナリウム練習用](https://drive.google.com/file/d/1bcFbPqDETO440ykwcoIWLw6G6X4HlQVe/view?usp=sharing)
-- [ユドナリウム本番用](https://drive.google.com/file/d/1gf1DOMvXIcTryzgW3pAXnVdI70WeAsbS/view?usp=sharing)
+- [ユドナリウム本番用](https://drive.google.com/file/d/1MN-vHDa4L0xIE1zpgBALLOgL03DR5n2P/view?usp=sharing)
 
 ## 外部素材
 

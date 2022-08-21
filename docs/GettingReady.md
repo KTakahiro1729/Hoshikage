@@ -45,11 +45,11 @@
 
 #### [ココフォリア](https://ccfolia.com/)
 
-[ココフォリア](https://ccfolia.com/)が一番きれいに見えると思います。[zip ファイル](https://drive.google.com/file/d/1ht-q6eJYW2yCYCYeMMwq5Vpaf583jRqu/view?usp=sharing)を DL の上、ココフォリアにドラッグ&ドロップしてください。
+[ココフォリア](https://ccfolia.com/)が一番きれいに見えると思います。[zip ファイル](https://drive.google.com/file/d/1KcO9Lf7tGSiuluJLotY_njgIZBHlIgXu/view?usp=sharing)を DL の上、ココフォリアにドラッグ&ドロップしてください。
 
 #### [平面化ユドナリウム](https://udonarium2d.netlify.app/)
 
-調査ポイントのマーカーが 2D であるため、[ユドナリウム](https://udonarium.app/)よりも[平面化ユドナリウム](https://udonarium2d.netlify.app/)を推奨します。いずれも[zip ファイル](https://drive.google.com/file/d/1gf1DOMvXIcTryzgW3pAXnVdI70WeAsbS/view?usp=sharing)を読み込んでください。
+調査ポイントのマーカーが 2D であるため、[ユドナリウム](https://udonarium.app/)よりも[平面化ユドナリウム](https://udonarium2d.netlify.app/)を推奨します。いずれも[zip ファイル](https://drive.google.com/file/d/1MN-vHDa4L0xIE1zpgBALLOgL03DR5n2P/view?usp=sharing)を読み込んでください。
 
 ## 理解度の確認
 
