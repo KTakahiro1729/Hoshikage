@@ -1,3 +1,6 @@
+<head><meta name="robots" content="noindex">
+</head>
+
 # エンディングのイベント
 エンディングで想定される行動の、条件と帰結の一覧です。
 
