@@ -1,3 +1,6 @@
+<head><meta name="robots" content="noindex">
+</head>
+
 # 時系列まとめ
 ## 日～年単位の時系列
 ![日～年単位の時系列](imgs/TimeCourseYears.png)
