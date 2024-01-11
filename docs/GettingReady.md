@@ -1,3 +1,6 @@
+<head><meta name="robots" content="noindex">
+</head>
+
 # ゲームの準備
 
 ## プレイヤー集め・キャラクターの決定
