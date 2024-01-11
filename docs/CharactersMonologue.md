@@ -1,3 +1,6 @@
+<head><meta name="robots" content="noindex">
+</head>
+
 # キャラクター達の独白
 
 ## シンフォニー
