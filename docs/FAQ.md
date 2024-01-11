@@ -1,3 +1,6 @@
+<head><meta name="robots" content="noindex">
+</head>
+
 <style>
 p{
     text-indent: 0em;
