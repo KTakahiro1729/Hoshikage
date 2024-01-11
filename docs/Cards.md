@@ -1,3 +1,6 @@
+<head><meta name="robots" content="noindex">
+</head>
+
 # カード解説
 
 ## シンフォニー
