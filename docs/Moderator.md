@@ -1,3 +1,6 @@
+<head><meta name="robots" content="noindex">
+</head>
+
 # ゲームの進行
 
 ## ルールの簡単な説明
