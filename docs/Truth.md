@@ -1,3 +1,6 @@
+<head><meta name="robots" content="noindex">
+</head>
+
 # 「星陰りて、謀り響く」の真相
 　このゲームにおいて重要な真相は3つあります。
 
