@@ -1,3 +1,6 @@
+<head><meta name="robots" content="noindex">
+</head>
+
 # エンディングのターン消費
 
 エンディングで「これは 1 ターン消費かな」と悩んだ場合に参照してください。
