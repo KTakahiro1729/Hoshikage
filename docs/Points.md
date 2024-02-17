@@ -1,6 +1,3 @@
-<head><meta name="robots" content="noindex">
-</head>
-
 # 得点集計
 
 組み分けを指名する際、一度でも全体会議を選んでいれば+1 点

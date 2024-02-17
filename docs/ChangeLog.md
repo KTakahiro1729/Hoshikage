@@ -1,6 +1,3 @@
-<head><meta name="robots" content="noindex">
-</head>
-
 # 変更履歴
 
 ## 2021/10/26
